@@ -9,7 +9,7 @@ PlayResY: 1080
 Original Script: SerCom_KC
 Original Translation: SerCom_KC
 Original Timing: SerCom_KC
-Update Details: v1.0.0
+Update Details: v1.0.1
 Original Editing: 旗木佐罗, 落单的Finn, 万俟猫
 
 [V4+ Styles]
@@ -31,8 +31,8 @@ Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,This script is released under Crea
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Any unauthorized commercial usage is strongly prohibited.
 Dialogue: 0,0:02:44.01,0:02:46.47,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}本翻譯作品按照CC BY-NC-SA 4.0授權條款向公眾授權\N{\fnSource Han Sans Heavy\fs}未經授權禁止用於任何商業用途
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,
-Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Version v1.0.0-CHT
-Dialogue: 0,0:01:32.86,0:01:35.32,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}翻譯版本\N{\fnSource Han Sans Heavy\fs}v1.0.0-CHT
+Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Version v1.0.1-CHT
+Dialogue: 0,0:01:32.86,0:01:35.32,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}翻譯版本\N{\fnSource Han Sans Heavy\fs}v1.0.1-CHT
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Translator(s): SerCom_KC
 Dialogue: 0,0:01:35.86,0:01:38.32,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}翻譯\N{\fnSource Han Sans Heavy\fs}SerCom_KC
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Proofreader(s): 旗木佐罗, 落单的Finn, 万俟猫
@@ -44,9 +44,9 @@ Dialogue: 0,0:01:59.93,0:02:02.39,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Lig
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Special Effects: SerCom_KC
 Dialogue: 0,0:02:02.60,0:02:05.10,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}特效\N{\fnSource Han Sans Heavy\fs}SerCom_KC
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Special Thanks:
-Comment: 0,0:02:12.44,0:02:14.90,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}特別感謝\N{\fnSource Han Sans Heavy\fs}
-Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Revisor(s):
-Comment: 0,0:02:15.94,0:02:18.40,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}修訂\N{\fnSource Han Sans Heavy\fs}
+Comment: 0,0:02:15.94,0:02:18.40,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}特別感謝\N{\fnSource Han Sans Heavy\fs}
+Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Revisor(s): 玻璃心沙包
+Dialogue: 0,0:02:12.44,0:02:14.90,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}修訂\N{\fnSource Han Sans Heavy\fs}玻璃心沙包
 Comment: 0,0:02:18.86,0:02:21.32,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}修訂\N{\fnSource Han Sans Heavy\fs}
 Comment: 0,0:02:47.73,0:02:50.19,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}TBD\N{\fnSource Han Sans Heavy\fs}TBD
 Comment: 0,0:02:50.65,0:02:53.61,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}TBD\N{\fnSource Han Sans Heavy\fs}TBD
@@ -366,7 +366,7 @@ Dialogue: 1,0:14:31.18,0:14:33.47,DIAT,HUE,0,0,0,,{\be15}蓋瑞  你可能有麻
 Dialogue: 1,0:14:33.47,0:14:35.81,DIAB,Gary,0,0,0,,{\be15}你這個「可能有」的用詞很有問題欸\N{\fs40\b0}I seriously question your usage of "may have."
 Dialogue: 1,0:14:35.81,0:14:37.39,DIAB,Gary,0,0,0,,{\be15}我看我們「已經有」麻煩了\N{\fs40\b0}I think we have reached have.
 Dialogue: 1,0:14:37.39,0:14:38.89,DIAB,Gary,0,0,0,,{\be15}而且還是「相當有」麻煩啊\N{\fs40\b0}I am very deep in have!
-Dialogue: 1,0:14:39.40,0:14:40.85,DIAT,HUE,0,0,0,,{\be15}受月球的引力影響\N{\fs40\b0}Due to the moon's gravity,
+Dialogue: 1,0:14:39.40,0:14:40.85,DIAT,HUE,0,0,0,,{\be15}受行星的引力影響\N{\fs40\b0}Due to the moon's gravity,
 Dialogue: 1,0:14:40.85,0:14:44.32,DIAT,HUE,0,0,0,,{\be15}銀河一號將於大約39秒後再次遭遇小行星帶\N{\fs40\b0}the asteroid field will swing back to the Galaxy One
 Dialogue: 1,0:14:44.32,0:14:47.99,DIAT,HUE,0,0,0,,{\be15}之後便會輪到你\N{\fs40\b0}and then at you in approximately 39 seconds.
 Dialogue: 1,0:14:47.99,0:14:49.41,DIAB,Gary,0,0,0,,{\be15}這可麻煩了  HUE\N{\fs40\b0}That's no good, HUE.
@@ -380,7 +380,7 @@ Dialogue: 1,0:14:57.41,0:14:59.54,DIAT,HUE,0,0,0,,{\be15}蓋瑞  我有一個方
 Dialogue: 1,0:14:59.54,0:15:02.04,DIAT,HUE,0,0,0,,{\be15}但只有33%的成功率\N{\fs40\b0}with a 33% chance of success.
 Dialogue: 1,0:15:02.04,0:15:03.29,DIAB,Gary,0,0,0,,{\be15}好吧  具體內容是？\N{\fs40\b0}Okay, and that would be?
 Dialogue: 1,0:15:03.29,0:15:06.76,DIAT,HUE,0,0,0,,{\be15}讓你的氧氣倉進行一次緊急噴氣\N{\fs40\b0}Perform an emergency air blow-out of your O2 tanks.
-Dialogue: 1,0:15:06.76,0:15:08.51,DIAT,HUE,0,0,0,,{\be15}如果你能進入繞月軌道\N{\fs40\b0}If you can enter the moon's orbit,
+Dialogue: 1,0:15:06.76,0:15:08.51,DIAT,HUE,0,0,0,,{\be15}如果你能進入行星軌道\N{\fs40\b0}If you can enter the moon's orbit,
 Dialogue: 1,0:15:08.51,0:15:12.09,DIAT,HUE,0,0,0,,{\be15}你就有可能繞其旋轉  返回銀河一號\N{\fs40\b0}you might be able to sling-hook around it back to the Galaxy One.
 Dialogue: 1,0:15:12.09,0:15:14.47,DIAB,Gary,0,0,0,,{\be15}好吧  好吧  就這麼辦\N{\fs40\b0}All right. All right, let's do this.
 Dialogue: 1,0:15:14.47,0:15:16.64,DIAT,HUE,0,0,0,,{\be15}蓋瑞  你應該清楚\N{\fs40\b0}Gary, you should know,
@@ -400,7 +400,7 @@ Dialogue: 1,0:15:45.75,0:15:46.63,DIAT,HUE,0,0,0,,{\be15}你會失敗的\N{\fs40
 Dialogue: 1,0:15:46.63,0:15:48.05,DIAB,Gary,0,0,0,,{\be15}你說的沒錯\N{\fs40\b0}You're right.
 Dialogue: 1,0:15:48.05,0:15:49.97,DIAB,Gary,0,0,0,,{\be15}我會失敗…\N{\fs40\b0}I will fail...
 Dialogue: 1,0:15:49.97,0:15:51.34,DIAB,Gary,0,0,0,,{\be15}敗出精彩\N{\fs40\b0}upwards.
-Dialogue: 1,0:15:57.43,0:15:59.73,DIAT,HUE,0,0,0,,{\be15}正在進入繞月軌道\N{\fs40\b0}Entering into moon's orbit.
+Dialogue: 1,0:15:57.43,0:15:59.73,DIAT,HUE,0,0,0,,{\be15}正在進入行星軌道\N{\fs40\b0}Entering into moon's orbit.
 Dialogue: 1,0:16:04.10,0:16:05.61,DIAB,Gary,0,0,0,,{\be15}不好  撐不住了\N{\fs40\b0}Oh, no! It's not working.
 Dialogue: 1,0:16:06.86,0:16:08.57,DIAT,HUE,0,0,0,,{\be15}以你當前的速率\N{\fs40\b0}At your current rate of velocity,
 Dialogue: 1,0:16:08.57,0:16:11.36,DIAT,HUE,0,0,0,,{\be15}你將無法返回銀河一號\N{\fs40\b0}you will not make it back to the Galaxy One.
