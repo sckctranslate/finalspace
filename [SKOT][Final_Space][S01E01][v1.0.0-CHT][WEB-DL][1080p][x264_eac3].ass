@@ -237,7 +237,7 @@ Dialogue: 1,0:08:24.35,0:08:25.73,DIAB,Gary,0,0,0,,{\be15}外星人撞我臉上�
 Dialogue: 1,0:08:25.73,0:08:27.73,DIAB,Gary,0,0,0,,{\be15}外星人撞我…外星臉啦\N{\fs40\b0}It's an alien on my -- it's a face alien!
 Dialogue: 1,0:08:27.73,0:08:29.40,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Aaaahh!
 Dialogue: 1,0:08:30.86,0:08:34.95,DIAB,Gary,0,0,0,,{\be15}哦  你沒吃我的臉  你是在抱我的臉啊\N{\fs40\b0}Oh. You're not a face-eater, you're a face-hugger.
-Dialogue: 1,0:08:34.95,0:08:35.53,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chocli.
+Dialogue: 1,0:08:34.95,0:08:35.53,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity.
 Dialogue: 1,0:08:36.41,0:08:38.20,DIAB,Gary,0,0,0,,{\be15}我正缺一個抱臉的人呢\N{\fs40\b0}I need a face-hugger in my life.
 Dialogue: 1,0:08:38.20,0:08:39.58,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Whoa!
 Dialogue: 1,0:08:39.99,0:08:42.75,DIAB,Gary,0,0,0,,{\be15}你讓我想起了很久以前  我曾經的一個朋友\N{\fs40\b0}You remind me of a friend I used to have a long time ago.
@@ -246,7 +246,7 @@ Dialogue: 1,0:08:52.13,0:08:53.22,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Whoa!
 Dialogue: 1,0:08:54.22,0:08:55.09,DIAB,Gary,0,0,0,,{\be15}那我就叫你「月餅」了\N{\fs40\b0}Mooncake it is.
 Dialogue: 1,0:08:55.63,0:08:56.97,DIAB,Gary,0,0,0,,{\be15}我好興奮  超興奮的\N{\fs40\b0}I'm pumped -- super-excited.
 Dialogue: 1,0:08:56.97,0:08:58.76,DIAB,Gary,0,0,0,,{\be15}你應該不會突然說人話吧\N{\fs40\b0}You don't by chance speak real words, do you?
-Dialogue: 1,0:08:58.76,0:08:59.31,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chocli-pop.
+Dialogue: 1,0:08:58.76,0:08:59.31,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity pok.
 Dialogue: 1,0:08:59.31,0:09:00.47,DIAB,Gary,0,0,0,,{\be15}哈！那也行\N{\fs40\b0}Ha! Works for me.
 Dialogue: 1,0:09:08.15,0:09:10.52,DIAB,Lord Commander,0,0,0,,{\be15}歡迎\N{\fs40\b0}Welcome.
 Dialogue: 1,0:09:17.57,0:09:20.24,DIAB,[Future Gary],0,0,0,,{\be15}天啊  你居然這麼小  我的媽\N{\fs40\b0}You're so tiny, man! What -- oh!
@@ -269,8 +269,8 @@ Dialogue: 1,0:09:55.40,0:09:58.07,DIAB,Gary,0,0,0,,{\be15}別告訴別人  那�
 Dialogue: 1,0:09:58.07,0:09:59.41,DIAB,Gary,0,0,0,,{\be15}最好不能被那傢伙知道你的存在\N{\fs40\b0}knows about you, the better.
 Dialogue: 1,0:09:59.41,0:10:00.95,DIAB,Gary,0,0,0,,{\be15}好了  你就呆在這裡吧\N{\fs40\b0}Okay, let's get you in here.
 Dialogue: 1,0:10:00.95,0:10:01.37,DIAB,Gary,0,0,0,,{\be15}好了嗎？\N{\fs40\b0}You ready?
-Dialogue: 1,0:10:01.37,0:10:01.87,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chocli!
-Dialogue: 1,0:10:03.37,0:10:05.45,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chocli, chocli!
+Dialogue: 1,0:10:01.37,0:10:01.87,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity!
+Dialogue: 1,0:10:03.37,0:10:05.45,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity, chookity!
 Dialogue: 1,0:10:05.45,0:10:06.33,DIAB,Gary,0,0,0,,{\be15}給我關上啊\N{\fs40\b0}Please close.
 Dialogue: 1,0:10:06.33,0:10:07.87,DIAB,Gary,0,0,0,,{\be15}好吧  關不上  這招沒用\N{\fs40\b0}Okay, it's not fitting. It's not working.
 Dialogue: 1,0:10:08.75,0:10:11.92,DIAB,Gary,0,0,0,,{\be15}我有時候就藏在這裡  就像一個床墊幽靈一樣\N{\fs40\b0}I hide there sometimes. I'm like a mattress ghost.
@@ -284,7 +284,7 @@ Dialogue: 1,0:10:20.09,0:10:22.68,DIAB,Gary,0,0,0,,{\be15}有時候我想逃…�
 Dialogue: 1,0:10:20.09,0:10:22.68,DIAB,Gary,0,0,0,,{\be15\fs50\pos(1064,920)}隱  藏
 Dialogue: 1,0:10:22.68,0:10:25.47,DIAB,Gary,0,0,0,,{\be15}就會把內褲像這樣在自己頭上套一圈\N{\fs40\b0}by putting underwear on the circumference of my head.
 Dialogue: 1,0:10:25.47,0:10:26.89,DIAB,Gary,0,0,0,,{\be15}怎麼樣？合適嗎？\N{\fs40\b0}How about that? How's it fit?
-Dialogue: 1,0:10:26.89,0:10:27.56,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chocli.
+Dialogue: 1,0:10:26.89,0:10:27.56,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity.
 Dialogue: 1,0:10:27.56,0:10:28.64,DIAB,Gary,0,0,0,,{\be15}完美\N{\fs40\b0}Perfect.
 Dialogue: 1,0:10:31.52,0:10:35.78,DIAB,[Future Gary],0,0,0,,{\be15}就…直接…殺了…我吧！\N{\fs40\b0}Please... just... kill... me!
 Dialogue: 1,0:10:38.95,0:10:42.78,DIAB,Lord Commander,0,0,0,,{\be15}我不會這麼做的  那樣就太粗魯了\N{\fs40\b0}Wouldn't think of it. That would be rude.
@@ -417,7 +417,7 @@ Dialogue: 1,0:17:03.96,0:17:06.17,DIAT,HUE,0,0,0,,{\be15}你確實死了  五分
 Dialogue: 1,0:17:06.88,0:17:08.09,DIAB,Gary,0,0,0,,{\be15}開什麼玩笑\N{\fs40\b0}Are you for serious?
 Dialogue: 1,0:17:08.09,0:17:10.71,DIAT,HUE,0,0,0,,{\be15}我認為是那個生命體救了你一命\N{\fs40\b0}I believe the life-form saved your life.
 Dialogue: 1,0:17:10.71,0:17:11.34,DIAB,Gary,0,0,0,,{\be15}月餅？\N{\fs40\b0}Mooncake?
-Dialogue: 1,0:17:12.09,0:17:13.17,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chocli, chocli.
+Dialogue: 1,0:17:12.09,0:17:13.17,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity, chookity.
 Dialogue: 1,0:17:13.17,0:17:15.59,DIAB,Gary,0,0,0,,{\be15}謝謝你救了我一命\N{\fs40\b0}Thank you for saving my life.
 Dialogue: 1,0:17:15.59,0:17:16.47,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Wow.
 Dialogue: 1,0:17:16.47,0:17:19.56,DIAT,HUE,0,0,0,,{\be15}檢測到飛船上仍有一個無法識別的生命體\N{\fs40\b0}I am detecting one unknown life-form still aboard.
