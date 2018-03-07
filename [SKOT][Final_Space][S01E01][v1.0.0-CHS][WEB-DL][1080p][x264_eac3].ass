@@ -319,21 +319,21 @@ Dialogue: 1,0:11:50.27,0:11:53.06,DIAB,Gary,0,0,0,,{\be15}KVN  你这个叽叽�
 Dialogue: 1,0:11:53.73,0:11:59.69,DIAB,Lord Commander,0,0,0,,{\be15}我们需要在你的飞行器上搜寻样本E-351\N{\fs40\b0}Your vessel has been subjected to a search for specimen E-351.
 Dialogue: 1,0:11:59.69,0:12:02.70,DIAB,Lord Commander,0,0,0,,{\be15}马上出来  否则死路一条\N{\fs40\b0}Come forward... or die.
 Dialogue: 1,0:12:02.70,0:12:03.91,DIAB,Gary,0,0,0,,{\be15}噢  糟了\N{\fs40\b0}Oh, crap.
-Dialogue: 1,0:12:11.08,0:12:12.33,DIAB,[Robot],0,0,0,,{\be15}我的手臂啊\N{\fs40\b0}My arm, man!
-Dialogue: 1,0:12:12.33,0:12:14.21,DIAB,[Robot],0,0,0,,{\be15}\N{\fs40\b0}Aaahh!
-Dialogue: 1,0:12:14.63,0:12:15.46,DIAB,[Bounty Hunter],0,0,0,,{\be15}愚蠢的东西\N{\fs40\b0}You fool!
+Dialogue: 1,0:12:11.08,0:12:12.33,DIAB,SAMES,0,0,0,,{\be15}我的手臂啊\N{\fs40\b0}My arm, man!
+Dialogue: 1,0:12:12.33,0:12:14.21,DIAB,SAMES,0,0,0,,{\be15}\N{\fs40\b0}Aaahh!
+Dialogue: 1,0:12:14.63,0:12:15.46,DIAB,Terk,0,0,0,,{\be15}愚蠢的东西\N{\fs40\b0}You fool!
 Dialogue: 1,0:12:16.25,0:12:17.42,DIAB,Gary,0,0,0,,{\be15}这个家伙又是什么鬼？\N{\fs40\b0}Who the freak is this guy?
 Dialogue: 1,0:12:17.42,0:12:19.30,DIAT,HUE,0,0,0,,{\be15}我认为他们想要被你藏在\N{\fs40\b0}I believe they want the alien
 Dialogue: 1,0:12:19.30,0:12:21.01,DIAT,HUE,0,0,0,,{\be15}背包里的那个外星人\N{\fs40\b0}you're hiding in your backpack.
 Dialogue: 1,0:12:21.01,0:12:23.38,DIAB,Gary,0,0,0,,{\be15}啥？我不知道你在说什么\N{\fs40\b0}What? I don't know what you're referring to.
-Dialogue: 1,0:12:27.10,0:12:28.60,DIAB,[Robot],0,0,0,,{\be15}这正是我生命的意义\N{\fs40\b0}This is what I was meant to do!
-Dialogue: 1,0:12:28.60,0:12:30.18,DIAB,[Robot],0,0,0,,{\be15}我从来都没有如此真切地感受到自己的存在\N{\fs40\b0}I have never felt so alive!
+Dialogue: 1,0:12:27.10,0:12:28.60,DIAB,SAMES,0,0,0,,{\be15}这正是我生命的意义\N{\fs40\b0}This is what I was meant to do!
+Dialogue: 1,0:12:28.60,0:12:30.18,DIAB,SAMES,0,0,0,,{\be15}我从来都没有如此真切地感受到自己的存在\N{\fs40\b0}I have never felt so alive!
 Dialogue: 1,0:12:31.23,0:12:33.77,DIAB,Gary,0,0,0,,{\be15}你是说我的内裤小伙伴啊\N{\fs40\b0}Oh! You mean my underpants caddy.
 Dialogue: 1,0:12:33.77,0:12:37.36,DIAT,HUE,0,0,0,,{\be15}是的  我们应当满足他们的要求  盖瑞\N{\fs40\b0}Yes. We should comply with their wishes, Gary.
 Dialogue: 1,0:12:38.15,0:12:41.36,DIAB,Gary,0,0,0,,{\be15}我不太确定  我有点儿开始喜欢这个小家伙了\N{\fs40\b0}I don't know. I kind of was starting to like this little guy.
 Dialogue: 1,0:12:41.36,0:12:42.32,DIAB,Gary,0,0,0,,{\be15}他的抱抱好舒服\N{\fs40\b0}He gives great hugs.
 Dialogue: 1,0:12:42.99,0:12:46.03,DIAT,HUE,0,0,0,,{\be15}盖瑞  我们的装备不足以应对这样的威胁\N{\fs40\b0}Gary, we are not equipped to face this threat.
-Dialogue: 1,0:12:51.20,0:12:52.96,DIAB,[Bounty Hunter],0,0,0,,{\be15}干得好  阿瓦卡多\N{\fs40\b0}Good job, Avocato.
+Dialogue: 1,0:12:51.20,0:12:52.96,DIAB,Terk,0,0,0,,{\be15}干得好  阿瓦卡多\N{\fs40\b0}Good job, Avocato.
 Dialogue: 1,0:12:52.96,0:12:54.46,DIAT,HUE,0,0,0,,{\be15}这场斗争跟我们无关\N{\fs40\b0}This is not our fight.
 Dialogue: 1,0:12:54.46,0:12:56.25,DIAB,Gary,0,0,0,,{\be15}HUE  它就是跟我们有关\N{\fs40\b0}HUE, we make it our fight.
 Dialogue: 1,0:12:56.25,0:12:58.75,DIAB,Gary,0,0,0,,{\be15}你是无疆守护的一员  保护生命可是你的座右铭啊\N{\fs40\b0}You're Infinity Guard. Your whole motto is to protect life.
@@ -344,7 +344,7 @@ Dialogue: 1,0:13:06.80,0:13:08.72,DIAT,HUE,0,0,0,,{\be15}这样做的话  你的
 Dialogue: 1,0:13:08.72,0:13:10.56,DIAB,Gary,0,0,0,,{\be15}我知道  立即开始光折  HUE\N{\fs40\b0}I get it. Lightfold the ship, HUE!
 Dialogue: 1,0:13:10.56,0:13:11.27,DIAT,HUE,0,0,0,,{\be15}盖瑞\N{\fs40\b0}Gary.
 Dialogue: 1,0:13:12.27,0:13:12.98,DIAB,Gary,0,0,0,,{\be15}快点\N{\fs40\b0}Do it!
-Dialogue: 1,0:13:17.35,0:13:18.44,DIAB,[Bounty Hunter],0,0,0,,{\be15}他们要开始光折了\N{\fs40\b0}They're lightfolding!
+Dialogue: 1,0:13:17.35,0:13:18.44,DIAB,Terk,0,0,0,,{\be15}他们要开始光折了\N{\fs40\b0}They're lightfolding!
 Dialogue: 1,0:13:37.62,0:13:40.79,DIAT,HUE,0,0,0,,{\be15}迫近警告  迫近警告\N{\fs40\b0}Proximity alert. Proximity alert.
 Dialogue: 1,0:13:40.79,0:13:42.13,DIAB,Gary,0,0,0,,{\be15}那个真的是那个吗？\N{\fs40\b0}Is that what I think it is?
 Dialogue: 1,0:13:42.13,0:13:44.97,DIAB,Gary,0,0,0,,{\be15}HUE  这可不妙  赶紧离开这里\N{\fs40\b0}HUE, that's no good. Get us out of here.
@@ -423,7 +423,8 @@ Dialogue: 1,0:17:15.59,0:17:16.47,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Wow.
 Dialogue: 1,0:17:16.47,0:17:19.56,DIAT,HUE,0,0,0,,{\be15}检测到飞船上仍有一个无法识别的生命体\N{\fs40\b0}I am detecting one unknown life-form still aboard.
 Dialogue: 1,0:17:19.56,0:17:20.56,DIAT,HUE,0,0,0,,{\be15}他有武装\N{\fs40\b0}He is armed.
 Dialogue: 1,0:17:20.56,0:17:21.64,DIAB,Gary,0,0,0,,{\be15}哪个船舱？\N{\fs40\b0}What deck?
-Dialogue: 1,0:17:21.64,0:17:24.56,DIAT,HUE,0,0,0,,{\be15}4A  机器人正在前往那里\N{\fs40\b0}4A. Sames are already on route.
+Dialogue: 1,0:17:21.64,0:17:24.56,DIAT,HUE,0,0,0,,{\be15}4A  机器人正在前往那里\N{\fs40\b0}4A. SAMES are already on route.
+Dialogue: 1,0:17:21.64,0:17:24.56,DIAT,HUE,0,0,0,,{\be15\fs50\pos(849,15)}S A M E S
 Dialogue: 1,0:17:30.19,0:17:32.82,DIAB,Avocato,0,0,0,,{\be15}把E-351交出来\N{\fs40\b0}Hand over E-351.
 Dialogue: 1,0:17:33.49,0:17:36.99,DIAB,Gary,0,0,0,,{\be15}听着  兄弟  我只问一句话\N{\fs40\b0}Listen, buddy, I only have one thing to say to you.
 Dialogue: 1,0:17:38.20,0:17:41.08,DIAB,Gary,0,0,0,,{\be15}你会打牌吗？\N{\fs40\b0}Do you play cards?
