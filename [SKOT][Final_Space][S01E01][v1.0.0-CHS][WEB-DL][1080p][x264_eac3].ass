@@ -15,10 +15,10 @@ Original Editing: 旗木佐罗, 落单的Finn, 万俟猫
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: DEFT,Source Han Sans Regular,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,50,1
-Style: DIAB,思源黑体 Medium,75,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,30,30,50,1
-Style: DIAT,思源黑体 Medium,75,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,30,30,50,1
+Style: DIAB,思源黑体 Medium,75,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,150,150,50,1
+Style: DIAT,思源黑体 Medium,75,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,150,150,50,1
 Style: DESC,思源黑体 Medium,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,300,300,50,1
-Style: LOGO,Source Han Sans Bold,75,&H00FFFFFF,&H000000FF,&H80FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,8,30,30,50,1
+Style: LOGO,Source Han Sans Bold,75,&H00FFFFFF,&H000000FF,&H80FFFFFF,&H00000000,-1,0,0,0,100,100,0,0,1,5,0,8,150,150,50,1
 Style: CRED,Source Han Sans Medium,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,0,2.5,9,0,190,150,1
 
 [Events]
