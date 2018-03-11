@@ -44,8 +44,8 @@ Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Timing: SerCom_KC
 Dialogue: 0,0:01:59.93,0:02:02.39,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}時間軸\N{\fnSource Han Sans Heavy\fs}SerCom_KC
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Special Effects: SerCom_KC
 Dialogue: 0,0:02:02.60,0:02:05.10,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}特效\N{\fnSource Han Sans Heavy\fs}SerCom_KC
-Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Special Thanks:
-Comment: 0,0:02:15.94,0:02:18.40,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}特別感謝\N{\fnSource Han Sans Heavy\fs}
+Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Special Thanks: 呱呱鴨
+Comment: 0,0:02:15.94,0:02:18.40,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}特別感謝\N{\fnSource Han Sans Heavy\fs}呱呱鴨
 Comment: 0,0:00:00.00,0:21:18.42,DEFT,,0,0,0,,Revisor(s): 玻璃心沙包
 Dialogue: 0,0:02:12.44,0:02:14.90,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}修訂\N{\fnSource Han Sans Heavy\fs}玻璃心沙包
 Comment: 0,0:02:18.86,0:02:21.32,CRED,,0,0,0,,{\fad(500,500)\fn思源黑體 Light\fs40}修訂\N{\fnSource Han Sans Heavy\fs}
@@ -264,7 +264,7 @@ Dialogue: 1,0:09:42.81,0:09:43.22,DIAB,[Future Gary],0,0,0,,{\be15}真的  真�
 Dialogue: 1,0:09:43.52,0:09:44.02,DIAB,[Future Gary],0,0,0,,{\be15}\N{\fs40\b0}Wah!
 Dialogue: 1,0:09:46.52,0:09:48.94,DIAB,Lord Commander,0,0,0,,{\be15}在哪裡發現的？\N{\fs40\b0}Where did you find it?
 Dialogue: 1,0:09:49.19,0:09:50.48,DIAB,[Future Gary],0,0,0,,{\be15}我沒去找\N{\fs40\b0}I didn't.
-Dialogue: 1,0:09:50.48,0:09:51.98,DIAB,[Future Gary],0,0,0,,{\be15}是它找到的我\N{\fs40\b0}It found me.
+Dialogue: 1,0:09:50.48,0:09:51.98,DIAB,[Future Gary],0,0,0,,{\be15}是它找到我的\N{\fs40\b0}It found me.
 Dialogue: 1,0:09:54.44,0:09:55.40,DIAB,Gary,0,0,0,,{\be15}那個HUE\N{\fs40\b0}The less HUE --
 Dialogue: 1,0:09:55.40,0:09:58.07,DIAB,Gary,0,0,0,,{\be15}別告訴別人  那傢伙其實有點神經質\N{\fs40\b0}who, between us, is a bit of a dickly-wont --
 Dialogue: 1,0:09:58.07,0:09:59.41,DIAB,Gary,0,0,0,,{\be15}最好不能被那傢伙知道你的存在\N{\fs40\b0}knows about you, the better.
