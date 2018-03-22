@@ -356,11 +356,11 @@ Dialogue: 1,0:12:28.76,0:12:31.14,DIAB,Gary,0,0,0,,{\be15}再過兩小時我就�
 Dialogue: 1,0:12:31.14,0:12:32.43,DIAB,Gary,0,0,0,,{\be15}動作要快點了\N{\fs40\b0}I gotta move fast.
 Dialogue: 1,0:12:38.23,0:12:39.90,DIAB,Quinn,0,0,0,,{\be15}長官  緊急狀況\N{\fs40\b0}Sir, there's an emergency.
 Dialogue: 1,0:12:39.90,0:12:42.44,DIAB,Quinn,0,0,0,,{\be15}我們必須馬上讓所有的無疆守護巡航船返回地面\N{\fs40\b0}We need to ground all Infinity Guard cruisers immediately.
-Dialogue: 1,0:12:42.44,0:12:44.07,DIAB,[Major?],0,0,0,,{\be15}什麼  你又來這套  奎恩\N{\fs40\b0}What?! Not again, Quinn.
+Dialogue: 1,0:12:42.44,0:12:44.07,DIAB,Superior Stone,0,0,0,,{\be15}什麼  你又來這套  奎恩\N{\fs40\b0}What?! Not again, Quinn.
 Dialogue: 1,0:12:44.07,0:12:46.03,DIAB,Quinn,0,0,0,,{\be15}一場全宇宙的浩劫就要發生了\N{\fs40\b0}There's a cosmic disaster taking place.
 Dialogue: 1,0:12:46.03,0:12:47.24,DIAB,Quinn,0,0,0,,{\be15}我們必須要找出這背後的…\N{\fs40\b0}We need to find out what's causing --
-Dialogue: 1,0:12:47.24,0:12:48.33,DIAB,[Major?],0,0,0,,{\be15}奎恩  住口\N{\fs40\b0}Quinn, shut up!
-Dialogue: 1,0:12:48.33,0:12:51.37,DIAB,[Major?],0,0,0,,{\be15}絕統T3墜毀是因為人為失誤\N{\fs40\b0}The Imperium T3 crashed because of human error.
+Dialogue: 1,0:12:47.24,0:12:48.33,DIAB,Superior Stone,0,0,0,,{\be15}奎恩  住口\N{\fs40\b0}Quinn, shut up!
+Dialogue: 1,0:12:48.33,0:12:51.37,DIAB,Superior Stone,0,0,0,,{\be15}絕統T3墜毀是因為人為失誤\N{\fs40\b0}The Imperium T3 crashed because of human error.
 Dialogue: 1,0:12:51.37,0:12:53.33,DIAB,Quinn,0,0,0,,{\be15}是嗎？跟證據講你的鬼話去吧\N{\fs40\b0}Yeah? Tell that to science.
 Dialogue: 1,0:12:53.71,0:12:54.79,DIAB,Quinn,0,0,0,,{\be15}真的是蠢\N{\fs40\b0}You're an idiot.
 Dialogue: 1,0:12:55.17,0:12:56.42,DIAB,Quinn,0,0,0,,{\be15}請支持我  隊長{SerCom_KC: Still might need to change this}\N{\fs40\b0}Back me up, Captain.
