@@ -1,0 +1,564 @@
+﻿[Script Info]
+Title: Final Space - Chapter Three
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: TV.709
+PlayResX: 1920
+PlayResY: 1080
+Original Script: SerCom_KC
+Original Translation: SerCom_KC
+Original Timing: SerCom_KC
+Update Details: v1.0.0
+Original Editing: 万俟猫, 呱呱鴨, 旗木佐罗
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,5,0,2,10,10,50,1
+Style: DEFT,Source Han Sans Regular,50,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,10,10,50,1
+Style: CRED,Source Han Sans Medium,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,0,2.5,9,0,190,150,1
+Style: DESC,思源黑体 Medium,50,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,300,300,50,1
+Style: DIAB,思源黑体 Medium,75,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,2,150,150,50,1
+Style: DIAT,思源黑体 Medium,75,&H00FFFFFF,&H000000FF,&H80000000,&H00000000,0,0,0,0,100,100,0,0,1,5,0,8,150,150,50,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,This script is a work of Translated by @SerCom_KC Open Translation Project.
+Dialogue: 0,0:01:24.39,0:01:26.98,CRED,,0,0,0,,{\fad(250,250)\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,For more details, please visit https://translatedby.sercomkc.org/finalspace
+Dialogue: 0,0:02:24.91,0:02:27.37,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}翻译项目地址\N{\fnSource Han Sans Heavy\fs}translatedby.sercomkc.org/finalspace
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,This script is released under Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Any unauthorized commercial usage is strongly prohibited.
+Dialogue: 0,0:02:28.33,0:02:30.83,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}本翻译作品按照CC BY-NC-SA 4.0许可协议向公众授权\N{\fnSource Han Sans Heavy\fs}未经授权禁止用于任何商业用途
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Version v1.0.0-CHS
+Dialogue: 0,0:01:31.98,0:01:34.44,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}翻译版本\N{\fnSource Han Sans Heavy\fs}v1.0.0-CHS
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Translator(s): SerCom_KC
+Dialogue: 0,0:01:35.24,0:01:37.70,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}翻译\N{\fnSource Han Sans Heavy\fs}SerCom_KC
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Proofreader(s): 万俟猫, 呱呱鴨, 旗木佐罗
+Dialogue: 0,0:01:42.74,0:01:45.25,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}校对\N{\fnSource Han Sans Heavy\fs}万俟猫
+Dialogue: 0,0:01:46.75,0:01:49.21,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}校对\N{\fnSource Han Sans Heavy\fs}呱呱鴨
+Dialogue: 0,0:01:50.54,0:01:53.00,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}校对\N{\fnSource Han Sans Heavy\fs}旗木佐罗
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Timing: SerCom_KC
+Dialogue: 0,0:01:56.97,0:01:59.43,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}时间轴\N{\fnSource Han Sans Heavy\fs}SerCom_KC
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Special Effects:
+Dialogue: 0,0:02:01.80,0:02:04.35,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}特效\N{\fnSource Han Sans Heavy\fs}SerCom_KC
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Special Thanks:
+Comment: 0,0:02:09.10,0:02:11.56,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}特别感谢\N{\fnSource Han Sans Heavy\fs}
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,Revisor(s):
+Comment: 0,0:02:14.90,0:02:17.36,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}修订\N{\fnSource Han Sans Heavy\fs}
+Comment: 0,0:02:19.36,0:02:21.82,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}修订\N{\fnSource Han Sans Heavy\fs}
+Comment: 0,0:02:04.39,0:02:06.85,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}TBD\N{\fnSource Han Sans Heavy\fs}TBD
+Comment: 0,0:02:23.12,0:02:25.58,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}TBD\N{\fnSource Han Sans Heavy\fs}TBD
+Comment: 0,0:02:27.37,0:02:29.83,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}TBD\N{\fnSource Han Sans Heavy\fs}TBD
+Comment: 0,0:02:58.15,0:03:01.61,CRED,,0,0,0,,{\fad(250,250)\fn思源黑体 Light\fs40}Encoded by\N{\fnSource Han Sans Heavy\fs}
+Dialogue: 1,0:00:04.15,0:00:10.65,DESC,,0,0,0,,{\fad(0,0)\be15}【家长提示】本片的评级为 TV-14-DLV，\N可能包含暗示性对话、粗俗语言和暴力等内容，\N因而不建议 14 岁以下儿童独自观赏。
+Dialogue: 1,0:00:01.73,0:00:04.15,DEFT,Gary,0,0,0,,{\fn思源黑体 Heavy\c&HA43900&\fs150\an8\be15}终空     {\fs75}前情提要
+Dialogue: 1,0:00:04.15,0:00:07.02,DIAB,Gary,0,0,0,,{\be15}盖瑞和阿瓦卡多陷入了生死危机\N{\fs40\b0}Gary and Avocato got their butt cheeks in a hot vise.
+Dialogue: 1,0:00:07.02,0:00:09.61,DIAB,Gary,0,0,0,,{\be15}“总司令”正在步步紧逼他们  妈呀！\N{\fs40\b0}The Lord Commander is hot on their trail. Oh, crap!
+Dialogue: 1,0:00:09.61,0:00:11.15,DIAB,Gary,0,0,0,,{\be15}如今  我们的两位大英雄开始合作\N{\fs40\b0}Now our heroes have joined forces
+Dialogue: 1,0:00:11.15,0:00:14.99,DIAB,Gary,0,0,0,,{\be15}保护月饼  并且拯救阿瓦卡多的儿子  小卡多\N{\fs40\b0}to protect Mooncake and save Avocato's son, Little Cato.
+Dialogue: 1,0:00:14.99,0:00:17.49,DIAB,Gary,0,0,0,,{\be15}他们会怎样做呢？又会藏身何处呢？\N{\fs40\b0}What are they going to do? Where are they going to hide?
+Dialogue: 1,0:00:17.49,0:00:18.58,DIAB,Gary,0,0,0,,{\be15}我也不知道\N{\fs40\b0}I have no idea.
+Dialogue: 1,0:00:18.58,0:00:20.79,DIAB,Gary,0,0,0,,{\be15}所以大家一起来看今天的这一集吧\N{\fs40\b0}That's why we're watching this episode, y'all!
+Dialogue: 1,0:00:24.17,0:00:27.96,DIAT,HUE,0,0,0,,{\be15}你的氧气还够用7分钟  盖瑞\N{\fs40\b0}You have 7 minutes of oxygen left, Gary.
+Dialogue: 1,0:00:27.96,0:00:30.09,DIAB,Gary,0,0,0,,{\be15}HUE  瞧  卡尔在那边\N{\fs40\b0}HUE, look, it's Carl.
+Dialogue: 1,0:00:30.09,0:00:31.46,DIAB,Gary,0,0,0,,{\be15}卡尔  咋样啊？\N{\fs40\b0}Carl, how's life?
+Dialogue: 1,0:00:31.46,0:00:33.93,DIAT,HUE,0,0,0,,{\be15}卡尔已经死了  盖瑞\N{\fs40\b0}Carl is dead, Gary.
+Dialogue: 1,0:00:33.93,0:00:35.26,DIAB,Gary,0,0,0,,{\be15}活该  卡尔\N{\fs40\b0}Classic Carl.
+Dialogue: 1,0:00:35.26,0:00:37.55,DIAB,Gary,0,0,0,,{\be15}那混蛋还欠我25刀呢\N{\fs40\b0}That bastard owes me 25 bucks.
+Dialogue: 1,0:00:37.55,0:00:38.60,DIAT,[Speaker],0,0,0,,{\be15\an9}紧急求救！紧急求救！\N{\fs40\b0}Mayday, mayday!
+Dialogue: 1,0:00:38.60,0:00:39.72,DIAB,Gary,0,0,0,,{\be15}可以去一下噪音吗  HUE？\N{\fs40\b0}Can you clean that up, HUE?
+Dialogue: 1,0:00:39.72,0:00:41.06,DIAT,HUE,0,0,0,,{\be15\an7}我试试看\N{\fs40\b0}I can try.
+Dialogue: 1,0:00:40.18,0:00:42.98,DIAT,[Speaker],0,0,0,,{\be15\bord0}{【！！】Dictation Required}我们光折时受到了干扰！{\an9}\N{\fs40\b0}[We lightfolded into scramble!]
+Dialogue: 1,0:00:41.06,0:00:42.98,DIAT,HUE,0,0,0,,{\be15\an7}信号干扰有点儿严重\N{\fs40\b0}There is quite a bit of interference.
+Dialogue: 1,0:00:42.98,0:00:44.69,DIAT,[Speaker],0,0,0,,{\be15\an9}我们需要帮助！\N{\fs40\b0}We need help!
+Dialogue: 1,0:00:43.73,0:00:45.06,DIAB,Gary,0,0,0,,知道那个人是谁吗？{\be15}\N{\fs40\b0}Any idea who it is?
+Dialogue: 1,0:00:45.06,0:00:46.98,DIAT,HUE,0,0,0,,{\be15\an7}不知道  盖瑞  认不出来\N{\fs40\b0}No, Gary. I'm afraid not.
+Dialogue: 0,0:00:44.69,0:00:46.98,DIAB,[Speaker],0,0,0,,{\be15\an9}不要啊！一个人都没有吗？\N{\fs40\b0}No! Is anyone out there?
+Dialogue: 1,0:00:47.73,0:00:48.77,DIAB,Gary,0,0,0,,{\be15}要不  我去帮帮他…\N{\fs40\b0}Well, maybe I can help these --
+Dialogue: 1,0:00:50.11,0:00:53.19,DIAB,Gary,0,0,0,,{\be15}算了  我还是在这里歇一会吧\N{\fs40\b0}Actually, I'll just chill over here.
+Comment: 0,0:00:53.19,0:01:21.85,DEFT,,0,0,0,,-- OP --
+Dialogue: 1,0:01:29.56,0:01:31.27,DIAB,[Mystery Person],0,0,0,,{\be15}给你的\N{\fs40\b0}For you!
+Dialogue: 1,0:01:31.27,0:01:32.65,DIAB,[Mystery Person],0,0,0,,{\be15}你会用到的\N{\fs40\b0}This will help.
+Dialogue: 1,0:01:32.65,0:01:34.07,DIAB,Little Cato,0,0,0,,{\be15}这是什么东西\N{\fs40\b0}What is this?
+Dialogue: 1,0:01:34.07,0:01:34.94,DIAB,Little Cato,0,0,0,,{\be15}你是谁？\N{\fs40\b0}Who's there?
+Dialogue: 1,0:01:42.49,0:01:46.33,DIAB,[Guard],0,0,0,,{\be15}你的父亲就是个懦夫\N{\fs40\b0}Your father is a coward!
+Dialogue: 1,0:01:46.33,0:01:48.67,DIAB,Little Cato,0,0,0,,{\be15}父亲一定会来救我的\N{\fs40\b0}My father will come for me,
+Dialogue: 1,0:01:48.67,0:01:50.75,DIAB,Little Cato,0,0,0,,{\be15}他也一定会杀了你\N{\fs40\b0}and he will kill you
+Dialogue: 1,0:01:50.75,0:01:53.34,DIAB,Little Cato,0,0,0,,{\be15}除非你已经死在我的手下\N{\fs40\b0}if I don't first.
+Dialogue: 1,0:01:53.34,0:01:54.21,DIAB,Little Cato,0,0,0,,{\be15}\N{\fs40\b0}Yah!
+Dialogue: 1,0:01:54.88,0:01:55.88,DIAB,Little Cato,0,0,0,,{\be15}\N{\fs40\b0}Ow.
+Dialogue: 1,0:02:00.26,0:02:02.18,DIAB,Gary,0,0,0,,{\be15}奎恩  我看起来是不是有些不一样？\N{\fs40\b0}Quinn, do I look any different?
+Dialogue: 1,0:02:02.18,0:02:06.56,DIAB,Gary,0,0,0,,{\be15}不一样对吧  因为你面前正是全银河通缉度最高的男人\N{\fs40\b0}I should because you're looking at the most wanted man in the galaxy.
+Dialogue: 1,0:02:06.56,0:02:08.52,DIAB,Gary,0,0,0,,{\be15}喔  瞧瞧谁来了\N{\fs40\b0}Oh, look who it is.
+Dialogue: 1,0:02:08.52,0:02:10.31,DIAB,Gary,0,0,0,,{\be15}阿瓦卡多  来跟奎恩打个招呼\N{\fs40\b0}Avocato, come say hi to Quinn.
+Dialogue: 1,0:02:10.31,0:02:11.65,DIAB,Avocato,0,0,0,,{\be15}不要\N{\fs40\b0}No.
+Dialogue: 1,0:02:11.65,0:02:12.69,DIAB,Gary,0,0,0,,{\be15}他脾气不太好\N{\fs40\b0}He's a bit of a grouch,
+Dialogue: 1,0:02:12.69,0:02:14.44,DIAB,Gary,0,0,0,,{\be15}不过这跟他儿子被绑架有关\N{\fs40\b0}but his son has been kidnapped.
+Dialogue: 1,0:02:14.44,0:02:15.94,DIAB,Gary,0,0,0,,{\be15}是啊  我懂\N{\fs40\b0}Yeah. I know.
+Dialogue: 1,0:02:15.94,0:02:18.53,DIAB,Gary,0,0,0,,{\be15}总之  重大进展  我有机械臂了\N{\fs40\b0}Anyways, big development. I have a robot arm.
+Dialogue: 1,0:02:18.53,0:02:19.57,DIAB,Gary,0,0,0,,{\be15}你看\N{\fs40\b0}Look at this!
+Dialogue: 1,0:02:19.57,0:02:20.57,DIAB,Gary,0,0,0,,{\be15}妈呀  怎么把它…\N{\fs40\b0}Oh, my god! How do I...
+Dialogue: 1,0:02:24.62,0:02:26.70,DIAB,Gary,0,0,0,,{\be15}今天就先到这里吧\N{\fs40\b0}I think that's all I have for you today.
+Dialogue: 1,0:02:27.16,0:02:29.29,DIAB,Gary,0,0,0,,{\be15}给我打电话喔  奎恩\N{\fs40\b0}Give me a call, Quinn.
+Dialogue: 1,0:02:29.29,0:02:31.83,DIAB,Gary,0,0,0,,{\be15}噢  忘记说了  再过四天  我就自由了\N{\fs40\b0}Oh, I almost forgot. In four days, I'm a free man.
+Dialogue: 1,0:02:31.83,0:02:33.29,DIAB,Gary,0,0,0,,{\be15}到那个时候  你有什么打…\N{\fs40\b0}What do you say when I turn...
+Dialogue: 1,0:02:33.04,0:02:36.38,DIAT,HUE,0,0,0,,{\be15}迫近警告  迫近警告\N{\fs40\b0}Proximity alert. Proximity alert.
+Dialogue: 1,0:02:37.13,0:02:41.59,DIAT,HUE,0,0,0,,{\be15}盖瑞  我们正在遭受“总司令”重型焚化炉的袭击\N{\fs40\b0}Gary, we are taking fire from the Lord Commander's heavy incinerators.
+Dialogue: 1,0:02:48.23,0:02:50.56,DIAB,Gary,0,0,0,,{\be15}抓紧了  怎么办  HUE？\N{\fs40\b0}Grab it firm. What do we do, HUE?
+Dialogue: 1,0:02:50.56,0:02:54.32,DIAT,HUE,0,0,0,,{\be15}计算中  检测到附近有入侵现象\N{\fs40\b0}Calculating. I am detecting an incursion in our proximity.
+Dialogue: 1,0:02:54.32,0:02:54.73,DIAB,Gary,0,0,0,,{\be15}有啥？\N{\fs40\b0}A what?
+Dialogue: 1,0:02:54.73,0:02:56.44,DIAT,HUE,0,0,0,,{\be15}有时虫  盖瑞\N{\fs40\b0}A temporal worm, Gary.
+Dialogue: 1,0:02:56.44,0:02:57.82,DIAT,HUE,0,0,0,,{\be15}这是你唯一的选择\N{\fs40\b0}It's your only option.
+Dialogue: 1,0:02:57.82,0:03:01.78,DIAB,Avocato,0,0,0,,{\be15}时虫可能会把我们送到几千年前或几千年后  盖瑞\N{\fs40\b0}A temporal worm could send us backwards or forwards thousands of years in time, Gary.
+Dialogue: 1,0:03:01.78,0:03:03.95,DIAB,Avocato,0,0,0,,{\be15}你确定我们只能选这条路吗？\N{\fs40\b0}Are you sure that's the only choice we have?
+Dialogue: 1,0:03:03.95,0:03:05.03,DIAB,Gary,0,0,0,,{\be15}带我们进去\N{\fs40\b0}Feed us to it!
+Dialogue: 1,0:03:16.25,0:03:17.84,DIAB,KVN,0,0,0,,{\be15}\N{\fs40\b0}Whoa!
+Dialogue: 1,0:03:17.84,0:03:21.59,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Aah!
+Dialogue: 1,0:03:22.09,0:03:25.26,DIAB,KVN,0,0,0,,{\be15}嗯  屁股真翘\N{\fs40\b0}Mm, pressed hams.
+Dialogue: 1,0:03:31.39,0:03:32.77,DIAB,Gary,0,0,0,,{\be15}真是屌爆了！\N{\fs40\b0}That was wondrous!
+Dialogue: 1,0:03:32.77,0:03:36.15,DIAB,Avocato,0,0,0,,{\be15}屌爆了就遮一下好吗  天啊\N{\fs40\b0}How about covering up that dick situation you've got going there? Jeez.
+Dialogue: 1,0:03:36.15,0:03:37.65,DIAB,Gary,0,0,0,,{\be15}时间刚刚好\N{\fs40\b0}In good time.
+Dialogue: 1,0:03:37.65,0:03:39.40,DIAB,Gary,0,0,0,,{\be15}话说回来  现在是什么时候？\N{\fs40\b0}Speaking of which, when are we?
+Dialogue: 1,0:03:41.20,0:03:42.16,DIAB,Gary,0,0,0,,{\be15}现在你高兴了吧\N{\fs40\b0}Happy?
+Dialogue: 1,0:03:41.65,0:03:44.87,DIAT,HUE,0,0,0,,{\be15}盖瑞  我们穿越到了四天后\N{\fs40\b0}Gary, we have jumped four days into the future.
+Dialogue: 1,0:03:44.87,0:03:45.45,DIAB,Gary,0,0,0,,{\be15}等等  你说啥？\N{\fs40\b0}Wait. What?
+Dialogue: 1,0:03:45.45,0:03:47.83,DIAB,Gary,0,0,0,,{\be15}也就是说我最后的四天刑期已经过完了  对吧  HUE？\N{\fs40\b0}That means my last four days of jail are up. Right, HUE?
+Dialogue: 1,0:03:48.58,0:03:51.16,DIAB,Gary,0,0,0,,{\be15}芝麻开门  宝藏速来\N{\fs40\b0}Open sesame! Unlock my bounty!
+Dialogue: 1,0:03:51.16,0:03:53.25,DIAT,HUE,0,0,0,,{\be15}根据第九条规定\N{\fs40\b0}Clause nine of your imprisonment
+Dialogue: 1,0:03:53.25,0:03:58.17,DIAT,HUE,0,0,0,,{\be15}在押期间  所有时间相关的干扰对你的刑期无影响\N{\fs40\b0}stipulates that all time-related disruptions have zero effect on your sentence.
+Dialogue: 1,0:03:58.17,0:04:00.72,DIAB,Gary,0,0,0,,{\be15}啥？没有巧克力味的大金币吗？\N{\fs40\b0}What? So no chocolate treasure coins?
+Dialogue: 1,0:04:00.34,0:04:03.13,DIAT,HUE,0,0,0,,{\be15}你指的是饼干吗  盖瑞？\N{\fs40\b0}Are you referring to cookies, Gary?
+Dialogue: 1,0:04:02.47,0:04:03.13,DIAB,Gary,0,0,0,,{\be15}对啊\N{\fs40\b0}Yes!
+Dialogue: 1,0:04:03.13,0:04:04.59,DIAT,HUE,0,0,0,,{\be15}哦  那就没有了\N{\fs40\b0}Oh, then no.
+Dialogue: 1,0:04:04.59,0:04:07.05,DIAB,Gary,0,0,0,,{\be15}你这是在抬价  HUE  抬价啊！\N{\fs40\b0}This is a load, HUE, a load!
+Dialogue: 1,0:04:07.76,0:04:10.22,DIAB,Avocato,0,0,0,,{\be15}听着  盖瑞  我们已经被盯上了\N{\fs40\b0}Listen, Gary. We're marked targets,
+Dialogue: 1,0:04:10.22,0:04:12.27,DIAB,Avocato,0,0,0,,{\be15}无论我们藏到哪个洞里\N{\fs40\b0}and no matter what hole we hide in,
+Dialogue: 1,0:04:12.27,0:04:14.56,DIAB,Avocato,0,0,0,,{\be15}都能被“总司令”洞察\N{\fs40\b0}the Lord Commander will find us in our hole
+Dialogue: 1,0:04:14.56,0:04:16.98,DIAB,Avocato,0,0,0,,{\be15}月饼就会被他从洞里带走\N{\fs40\b0}and take Mooncake from that hole.
+Dialogue: 1,0:04:16.98,0:04:18.73,DIAB,Avocato,0,0,0,,{\be15}我知道这听起来有点空洞\N{\fs40\b0}I know that's a whole lot of holes,
+Dialogue: 1,0:04:18.73,0:04:20.40,DIAB,Avocato,0,0,0,,{\be15}但我们现在真的进了一个无底洞了\N{\fs40\b0}but we're in a whole lot of trouble.
+Dialogue: 1,0:04:20.40,0:04:21.15,DIAB,Gary,0,0,0,,{\be15}HUE？\N{\fs40\b0}HUE?
+Dialogue: 1,0:04:21.15,0:04:22.86,DIAT,HUE,0,0,0,,{\be15}正如阿瓦卡多所说\N{\fs40\b0}Avocato is correct.
+Dialogue: 1,0:04:24.36,0:04:26.49,DIAB,Avocato,0,0,0,,{\be15}在确定下一步做什么之前  我们必须把他藏起来\N{\fs40\b0}We need to hide him until we figure things out.
+Dialogue: 1,0:04:26.49,0:04:28.70,DIAB,Avocato,0,0,0,,{\be15}我知道一个收留逃犯的地方\N{\fs40\b0}Look. I've heard of a place that safeguards fugitives.
+Dialogue: 1,0:04:29.16,0:04:31.08,DIAB,Avocato,0,0,0,,{\be15}离我们最近的一个在雅尔诺星\N{\fs40\b0}The closest one is on Yarno.
+Dialogue: 1,0:04:31.08,0:04:32.46,DIAB,Avocato,0,0,0,,{\be15}只要在那里  没人能发现他\N{\fs40\b0}No one will find him there.
+Dialogue: 1,0:04:33.66,0:04:36.79,DIAB,Gary,0,0,0,,{\be15}HUE  让引擎加速\N{\fs40\b0}HUE, spool up the engines.
+Dialogue: 1,0:04:36.79,0:04:38.13,DIAB,Gary,0,0,0,,{\be15}我们就去雅尔诺星\N{\fs40\b0}We're going to Yarno.
+Dialogue: 1,0:04:44.88,0:04:49.01,DIAB,Lord Commander,0,0,0,,{\be15}胡拉助手  我一直很敬重十二教团\N{\fs40\b0}Helper Hula, I've always respected the Order of the Twelve
+Dialogue: 1,0:04:49.01,0:04:51.43,DIAB,Lord Commander,0,0,0,,{\be15}作为全宇宙观察者的地位\N{\fs40\b0}being the eyes of the universe.
+Dialogue: 1,0:04:51.43,0:04:54.02,DIAB,Lord Commander,0,0,0,,{\be15}E-351在哪里？\N{\fs40\b0}Where is E-351?
+Dialogue: 1,0:04:57.15,0:04:59.73,DIAB,Helper Hula,0,0,0,,{\be15}啊  你命不久矣\N{\fs40\b0}Ah! You're dying!
+Dialogue: 1,0:04:59.73,0:05:01.48,DIAB,Lord Commander,0,0,0,,{\be15}命不久矣？是吗  大天才\N{\fs40\b0}Dying? Really, genius?
+Dialogue: 1,0:05:01.48,0:05:02.65,DIAB,Lord Commander,0,0,0,,{\be15}我知道我快死了！\N{\fs40\b0}I know I'm dying!
+Dialogue: 1,0:05:02.65,0:05:05.86,DIAB,Helper Hula,0,0,0,,{\be15}每使用一次那个“光线”\N{\fs40\b0}Every time you use your light,
+Dialogue: 1,0:05:05.86,0:05:08.70,DIAB,Helper Hula,0,0,0,,{\be15}你就离死亡更近了一步\N{\fs40\b0}you quicken your own death.
+Dialogue: 1,0:05:08.70,0:05:12.33,DIAB,Lord Commander,0,0,0,,{\be15}所以我才需要月饼\N{\fs40\b0}That's why I need Mooncake,
+Dialogue: 1,0:05:12.33,0:05:14.58,DIAB,Lord Commander,0,0,0,,{\be15}那个笨蛋好像是这么叫的吧\N{\fs40\b0}or whatever that idiot calls him.
+Dialogue: 1,0:05:14.58,0:05:18.63,DIAB,Lord Commander,0,0,0,,{\be15}我需要他才能活下去  告诉我他在哪里\N{\fs40\b0}I need him to live. Tell me where he is.
+Dialogue: 1,0:05:18.63,0:05:20.84,DIAB,Helper Hula,0,0,0,,{\be15}耐心\N{\fs40\b0}Patience.
+Dialogue: 1,0:05:20.84,0:05:23.21,DIAB,Lord Commander,0,0,0,,{\be15}你这算助人吗\N{\fs40\b0}That wasn't very helpful.
+Dialogue: 1,0:05:31.72,0:05:33.22,DIAB,Lord Commander,0,0,0,,{\be15}\N{\fs40\b0}Ugh!
+Dialogue: 1,0:05:39.36,0:05:41.48,DIAB,Lord Commander,0,0,0,,{\be15}帮我找到他\N{\fs40\b0}You will find him for me,
+Dialogue: 1,0:05:41.48,0:05:45.74,DIAB,Lord Commander,0,0,0,,{\be15}否则下次就别怪我不客气了\N{\fs40\b0}or next time I finish the job.
+Dialogue: 1,0:05:57.96,0:06:01.13,DIAB,Zargon,0,0,0,,{\be15}哈佬  我是扎尔贡·图卡历什\N{\fs40\b0}Gworplo! I'm Zargon Tukalishi,
+Dialogue: 1,0:06:01.13,0:06:02.75,DIAB,Zargon,0,0,0,,{\be15}欢迎来到雅尔…\N{\fs40\b0}and welcome to Yarn--
+Dialogue: 1,0:06:03.00,0:06:06.26,DIAB,[Maniac],0,0,0,,{\be15}死亡收割祭快开始啦\N{\fs40\b0}I can't wait for Deathcropolis!
+Dialogue: 1,0:06:08.18,0:06:10.34,DIAB,Avocato,0,0,0,,{\be15}看来最近这里发生了一些变化呢\N{\fs40\b0}Looks like they've made some changes around here.
+Dialogue: 1,0:06:10.34,0:06:12.22,DIAB,Gary,0,0,0,,{\be15}你还真别说  这死亡收割祭听上去\N{\fs40\b0}You don't say, because the Deathcropolis
+Dialogue: 1,0:06:12.22,0:06:14.06,DIAB,Gary,0,0,0,,{\be15}就好像温馨的教会野餐一样\N{\fs40\b0}just sounded like a lovely church picnic.
+Dialogue: 1,0:06:15.22,0:06:16.35,DIAB,Gary,0,0,0,,{\be15}不用担心  月饼\N{\fs40\b0}Don't worry, Mooncake.
+Dialogue: 1,0:06:16.35,0:06:17.23,DIAB,Gary,0,0,0,,{\be15}有我们在呢\N{\fs40\b0}We got this.
+Dialogue: 1,0:06:17.73,0:06:21.48,DIAB,[Skeevoid],0,0,0,,{\be15}穆诺团子  自产的穆诺团子\N{\fs40\b0}Moonobumps, homemade moonobumps.
+Dialogue: 1,0:06:21.48,0:06:23.40,DIAB,Gary,0,0,0,,{\be15}哇  不错啊  居然还有免费送糖的\N{\fs40\b0}Oh, sweet! They're just handing out free candy!
+Dialogue: 1,0:06:25.23,0:06:27.65,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Wow. Whoa.
+Dialogue: 1,0:06:28.95,0:06:31.24,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Oh, oh,
+Dialogue: 1,0:06:31.24,0:06:33.41,DIAB,Gary,0,0,0,,{\be15}他手上有根棒冰欸\N{\fs40\b0}he has a popsicle now!
+Dialogue: 1,0:06:34.83,0:06:36.04,DIAB,Avocato,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:06:39.21,0:06:40.79,DIAB,Gary,0,0,0,,{\be15}简直恍若隔世啊\N{\fs40\b0}I feel so replenished.
+Dialogue: 1,0:06:40.79,0:06:41.96,DIAB,Gary,0,0,0,,{\be15}天啊\N{\fs40\b0}Oh, wow.
+Dialogue: 1,0:06:41.96,0:06:43.92,DIAB,Gary,0,0,0,,{\be15}哇  啥东西啊？\N{\fs40\b0}Oh! Just what is this?
+Dialogue: 1,0:06:43.92,0:06:47.09,DIAB,Gary,0,0,0,,{\be15}我的奶子上怎么有只飞镖\N{\fs40\b0}There's a dart sticking out of my chesticles!
+Dialogue: 1,0:06:47.09,0:06:49.80,DIAB,Avocato,0,0,0,,{\be15}能不能不要从奇葩外星人手里乱拿东西？\N{\fs40\b0}Can you not take crap from weird alien skeevoids?
+Dialogue: 1,0:06:49.80,0:06:52.72,DIAB,Gary,0,0,0,,{\be15}好的  “不要从奇葩手里乱拿东西”\N{\fs40\b0}Noted, "Do not take crap from skeevoids."
+Dialogue: 1,0:06:53.35,0:06:54.47,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Ugh.
+Dialogue: 1,0:06:54.47,0:06:54.89,DIAB,[Skeevoid],0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:06:54.89,0:06:55.89,DIAB,[Maniac],0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:07:01.31,0:07:03.69,DIAB,Quinn,0,0,0,,{\be15}距离木星2秒差距的地方\N{\fs40\b0}There's a quantum gravitational disturbance emanating
+Dialogue: 1,0:07:03.69,0:07:05.02,DIAB,Quinn,0,0,0,,{\be15}涌出了量子引力干扰\N{\fs40\b0} two parsecs from Jupiter.
+Dialogue: 1,0:07:05.02,0:07:07.40,DIAB,Quinn,0,0,0,,{\be15}如果我的计算正确  所有的生命都会…\N{\fs40\b0}If my math is right, all our lives might depend --
+Dialogue: 1,0:07:07.40,0:07:09.40,DIAB,Tribore,0,0,0,,{\be15}奎恩  我是三烦\N{\fs40\b0}Quinn, it's Tribore.
+Dialogue: 1,0:07:09.40,0:07:10.78,DIAB,Tribore,0,0,0,,{\be15}不用担心我  我在你的房间里\N{\fs40\b0}Don't worry. I'm at your place.
+Dialogue: 1,0:07:10.78,0:07:14.03,DIAB,Tribore,0,0,0,,{\be15}目前一切正常  但我有个非常坏的消息\N{\fs40\b0}Everything is okay, but super bad news.
+Dialogue: 1,0:07:14.03,0:07:15.24,DIAB,Tribore,0,0,0,,{\be15}你不会喜欢听的\N{\fs40\b0}You're not going to like it.
+Dialogue: 1,0:07:15.24,0:07:17.75,DIAB,Tribore,0,0,0,,{\be15}说实在的  我也不知道这年头喜欢怎么了\N{\fs40\b0}In fact, I don't know what happened to all the like.
+Dialogue: 1,0:07:17.75,0:07:19.12,DIAB,Tribore,0,0,0,,{\be15}喜欢都到哪里去了？\N{\fs40\b0}Where did all the like go?
+Dialogue: 1,0:07:19.12,0:07:20.04,DIAB,Quinn,0,0,0,,{\be15}有话快说\N{\fs40\b0}Tell me, already!
+Dialogue: 1,0:07:20.04,0:07:21.54,DIAB,Tribore,0,0,0,,{\be15}我会有话快说的\N{\fs40\b0}I will tell you, already.
+Dialogue: 1,0:07:21.54,0:07:26.25,DIAB,Tribore,0,0,0,,{\be15}就在昨天  斯通长官派遣了一艘绝统巡航船前来逮捕你\N{\fs40\b0}Superior Stone dispatched an Imperium cruiser yesterday to apprehend you
+Dialogue: 1,0:07:26.25,0:07:30.34,DIAB,Tribore,0,0,0,,{\be15}据说你违反了多条法令  差不多47条\N{\fs40\b0}because you kind of broke a lot of laws, like 47 laws.
+Dialogue: 1,0:07:30.34,0:07:31.76,DIAB,Quinn,0,0,0,,{\be15}为什么不早点告诉我？\N{\fs40\b0}Why didn't you tell me sooner?
+Dialogue: 1,0:07:31.76,0:07:33.22,DIAB,Tribore,0,0,0,,{\be15}为什么不早点告诉你呢？\N{\fs40\b0}Why didn't I tell you sooner?
+Dialogue: 1,0:07:33.22,0:07:34.85,DIAB,Tribore,0,0,0,,{\be15}这是个问题  对吧？\N{\fs40\b0}That is the question, isn't it?
+Dialogue: 1,0:07:34.85,0:07:36.26,DIAB,Tribore,0,0,0,,{\be15}回答  我最近很忙\N{\fs40\b0}The answer, I've been busy.
+Dialogue: 1,0:07:36.26,0:07:37.81,DIAB,Quinn,0,0,0,,{\be15}你这是在动我的的东西吗？\N{\fs40\b0}Are you touching my stuff?
+Dialogue: 1,0:07:37.81,0:07:39.43,DIAB,Tribore,0,0,0,,{\be15}为什么我要动你的东西呢\N{\fs40\b0}Why would I be touching your stuff.
+Dialogue: 1,0:07:39.43,0:07:41.35,DIAB,Tribore,0,0,0,,{\be15}这些会让我看起来又梦幻又漂亮的东西\N{\fs40\b0}that makes me look so dreamy and beautiful.
+Dialogue: 1,0:07:41.35,0:07:43.52,DIAB,Tribore,0,0,0,,{\be15}我是绝对不会碰你那些漂亮的东西的\N{\fs40\b0}I would never be touching your beautiful stuff.
+Dialogue: 1,0:07:43.52,0:07:46.82,DIAT,[Computer],0,0,0,,{\be15}奎恩  一艘绝统巡航船正在靠近\N{\fs40\b0}Quinn, an Imperium cruiser is closing in on your position.
+Dialogue: 1,0:07:50.44,0:07:51.53,DIAB,Avocato,0,0,0,,{\be15}就是这里  盖瑞\N{\fs40\b0}This is the place, Gary.
+Dialogue: 1,0:07:51.53,0:07:52.41,DIAB,Gary,0,0,0,,{\be15}就是这里？\N{\fs40\b0}This is the place?
+Dialogue: 1,0:07:52.41,0:07:53.70,DIAB,Gary,0,0,0,,{\be15}那个地方就是“这里”？\N{\fs40\b0}This, right here, is the place?
+Dialogue: 1,0:07:54.45,0:07:55.45,DIAB,Gary,0,0,0,,{\be15}我是不会下去的\N{\fs40\b0}I'm not going down there.
+Dialogue: 1,0:07:57.16,0:08:00.29,DIAB,[PA],0,0,0,,{\be15}朋友  欢迎来到十二教团雅尔诺支部\N{\fs40\b0}Welcome, friends, to the Order of Twelve Yarno chapter.
+Dialogue: 1,0:08:00.29,0:08:02.46,DIAB,[PA],0,0,0,,{\be15}我们的代表很快就会来接见你\N{\fs40\b0}A representative will meet you shortly.
+Dialogue: 1,0:08:02.46,0:08:03.12,DIAB,[Helper Assistant],0,0,0,,{\be15}请问我有什么可以…\N{\fs40\b0}How can I --
+Dialogue: 1,0:08:03.12,0:08:03.79,DIAB,Gary,0,0,0,,{\be15}妈呀\N{\fs40\b0}Jeez!
+Dialogue: 1,0:08:03.79,0:08:05.21,DIAB,[Helper Assistant],0,0,0,,{\be15}帮到你的吗？\N{\fs40\b0}...help?
+Dialogue: 1,0:08:06.71,0:08:07.42,DIAB,Gary,0,0,0,,{\be15}被你吓到了\N{\fs40\b0}You got me.
+Dialogue: 1,0:08:07.42,0:08:08.34,DIAB,Avocato,0,0,0,,{\be15}你是助手吗？\N{\fs40\b0}Are you a Helper?
+Dialogue: 1,0:08:08.34,0:08:09.38,DIAB,[Helper Assistant],0,0,0,,{\be15}喔  不是的\N{\fs40\b0}Oh, no.
+Dialogue: 1,0:08:09.38,0:08:12.84,DIAB,[Helper Assistant],0,0,0,,{\be15}我只协助助手的工作\N{\fs40\b0}I assist the Helpers.
+Dialogue: 1,0:08:14.59,0:08:16.47,DIAB,Gary,0,0,0,,{\be15}那你就是助手的助手咯？\N{\fs40\b0}So you're a Helper-helper?
+Dialogue: 1,0:08:16.47,0:08:20.27,DIAB,[Helper Assistant],0,0,0,,{\be15}我会告诉他  你们已经…\N{\fs40\b0}I will tell him you have...
+Dialogue: 1,0:08:20.27,0:08:21.18,DIAB,[Helper Assistant],0,0,0,,{\be15}到了\N{\fs40\b0}arrived.
+Dialogue: 1,0:08:22.39,0:08:24.44,DIAB,Gary,0,0,0,,{\be15}那个家伙直接穿墙消失了\N{\fs40\b0}Guy straight up ghosted through that wall.
+Dialogue: 1,0:08:24.44,0:08:25.19,DIAB,Avocato,0,0,0,,{\be15}接受事实吧\N{\fs40\b0}Live with it.
+Dialogue: 1,0:08:25.19,0:08:25.98,DIAB,Gary,0,0,0,,{\be15}做不到啊\N{\fs40\b0}I can't.
+Dialogue: 1,0:08:25.98,0:08:29.78,DIAB,Gary,0,0,0,,{\be15}那个家伙  居然直接穿墙消失了啊\N{\fs40\b0}The guy just ghosted through that wall, yo.
+Dialogue: 1,0:08:29.78,0:08:30.11,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:08:30.11,0:08:32.03,DIAB,Helper Stevil,0,0,0,,{\be15}请问你需要什么帮助吗？\N{\fs40\b0}How can I help?
+Dialogue: 1,0:08:32.03,0:08:33.57,DIAB,Helper Stevil,0,0,0,,{\be15}我们乐于助人\N{\fs40\b0}We love to help.
+Dialogue: 1,0:08:33.86,0:08:34.45,DIAB,Gary,0,0,0,,{\be15}谢谢\N{\fs40\b0}Thanks.
+Dialogue: 1,0:08:34.45,0:08:37.37,DIAB,Gary,0,0,0,,{\be15}是这样的  我们需要给这个小家伙找个安全的地方\N{\fs40\b0}Uh... well, we need to find a safe place for my little buddy.
+Dialogue: 1,0:08:37.37,0:08:40.58,DIAB,Helper Stevil,0,0,0,,{\be15}抱歉  我们已经满员了\N{\fs40\b0}Sorry. We're at capacity.
+Dialogue: 1,0:08:42.08,0:08:43.12,DIAB,Helper Stevil,0,0,0,,{\be15}\N{\fs40\b0}Oh!
+Dialogue: 1,0:08:44.46,0:08:47.46,DIAB,Helper Stevil,0,0,0,,{\be15}不过再挤一个房间还是没问题的\N{\fs40\b0}But we could always squeeze in one more.
+Dialogue: 1,0:08:47.46,0:08:51.21,DIAB,Helper Stevil,0,0,0,,{\be15}如此珍贵的样本\N{\fs40\b0}Such a precious specimen.
+Dialogue: 1,0:08:51.21,0:08:52.09,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Mm-hmm, mm-hmm.
+Dialogue: 1,0:08:52.09,0:08:54.72,DIAB,Gary,0,0,0,,{\be15}你…你能不要用那么瘆人的语气行吗？\N{\fs40\b0}C-can you say that just a little less creepy-like?
+Dialogue: 1,0:08:56.84,0:08:58.26,DIAB,Gary,0,0,0,,{\be15}好吧  看来不行\N{\fs40\b0}Okay. I guess not.
+Dialogue: 1,0:08:59.01,0:08:59.85,DIAB,Gary,0,0,0,,{\be15}月饼啊\N{\fs40\b0}Mooncake.
+Dialogue: 1,0:08:59.85,0:09:00.97,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity?
+Dialogue: 1,0:09:00.97,0:09:03.23,DIAB,Gary,0,0,0,,{\be15}我不是说要就此分别  知道吗？\N{\fs40\b0}No one's saying goodbye here. Okay?
+Dialogue: 1,0:09:04.48,0:09:06.02,DIAB,Gary,0,0,0,,{\be15}我会尽快赶回来的\N{\fs40\b0}I'll be back as soon as I can.
+Dialogue: 1,0:09:06.02,0:09:09.15,DIAB,Gary,0,0,0,,{\be15}就这一小段时间  我保证\N{\fs40\b0}It's only temporary. I promise.
+Dialogue: 1,0:09:09.15,0:09:11.40,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity pok.
+Dialogue: 1,0:09:13.07,0:09:14.57,DIAB,Avocato,0,0,0,,{\be15}盖瑞  他不会有事的\N{\fs40\b0}Gary, he'll be fine.
+Dialogue: 1,0:09:14.57,0:09:16.03,DIAB,Avocato,0,0,0,,{\be15}他能自己照顾自己\N{\fs40\b0}He can take care of himself.
+Dialogue: 1,0:09:19.70,0:09:22.16,DIAB,Gary,0,0,0,,{\be15}对了先生  我还没问过你的名字呢  叫…\N{\fs40\b0}By the way, I never got your name, mister...
+Dialogue: 1,0:09:22.16,0:09:23.58,DIAB,Helper Stevil,0,0,0,,{\be15}史蒂佛\N{\fs40\b0}Stevil.
+Dialogue: 1,0:09:22.16,0:09:23.58,DIAB,Helper Stevil,0,0,0,,{\be15\fs50\pos(960,920)}Stevil
+Dialogue: 1,0:09:23.58,0:09:24.33,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Whoa!
+Dialogue: 1,0:09:24.33,0:09:25.25,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Whoa, whoa, whoa, whoa, whoa.
+Dialogue: 1,0:09:25.25,0:09:26.08,DIAB,Gary,0,0,0,,{\be15}停一下\N{\fs40\b0}Pump the breaks.
+Dialogue: 1,0:09:26.08,0:09:28.63,DIAB,Gary,0,0,0,,{\be15}好吧  这个怪胎从名字开始就带着邪恶\N{\fs40\b0}Okay. The freaking guy has evil in his name.
+Dialogue: 1,0:09:26.08,0:09:28.63,DIAB,Gary,0,0,0,,{\be15\fs50\pos(1326,920)}evil
+Dialogue: 1,0:09:28.63,0:09:31.42,DIAB,Gary,0,0,0,,{\be15}我他妈是不会把月饼交给一个叫做史蒂佛的家伙的！\N{\fs40\b0}I'm not handing Mooncake over to a guy freaking named Stevil!
+Dialogue: 1,0:09:31.42,0:09:32.67,DIAB,Avocato,0,0,0,,{\be15}史蒂佛的确有点可疑\N{\fs40\b0}Stevil is a bit alarming.
+Dialogue: 1,0:09:32.67,0:09:33.71,DIAB,Gary,0,0,0,,{\be15}就是有点可疑！\N{\fs40\b0}It is a bit alarming!
+Dialogue: 1,0:09:33.71,0:09:35.30,DIAB,Helper Stevil,0,0,0,,{\be15}我们只是想助人而已\N{\fs40\b0}We only want to help!
+Dialogue: 1,0:09:35.72,0:09:37.13,DIAB,Gary,0,0,0,,{\be15}阿瓦卡多  我们换个地方吧\N{\fs40\b0}Avocato, let's find another place.
+Dialogue: 1,0:09:37.13,0:09:37.59,DIAB,Gary,0,0,0,,{\be15}走了\N{\fs40\b0}Let's go.
+Dialogue: 1,0:09:37.59,0:09:38.59,DIAB,Helper Stevil,0,0,0,,{\be15}休想！\N{\fs40\b0}Stop!
+Dialogue: 1,0:09:39.64,0:09:40.47,DIAB,Gary,0,0,0,,{\be15}好吧\N{\fs40\b0}Okay.
+Dialogue: 1,0:09:40.47,0:09:43.02,DIAB,Gary,0,0,0,,{\be15}这下完全是班西哭号级别的可疑了\N{\fs40\b0}This is full-blown banshee screech, alarming!
+Dialogue: 1,0:09:40.47,0:09:43.02,DESC,Gary,0,0,0,,{\be15}※班西（banshee）是爱尔兰神话中的报丧女妖。根据传说，班西会在某人将要死去的时候开始哭号。
+Dialogue: 1,0:09:47.31,0:09:48.02,DIAB,Gary,0,0,0,,{\be15}月饼！\N{\fs40\b0}Mooncake!
+Dialogue: 1,0:09:48.02,0:09:48.90,DIAB,Helper Stevil,0,0,0,Sleep,{\be15}沉睡吧\N{\fs40\b0}Sleep.
+Dialogue: 1,0:09:48.90,0:09:49.27,DIAB,Helper Stevil,0,0,0,Sleep,{\bord0\t(0,-0,\be30)}沉睡吧\N{\fs40\b0}Sleep.
+Dialogue: 1,0:09:48.90,0:09:49.27,DIAB,Helper Stevil,0,0,0,Sleep,{\fad(0,350)\be15\t(0,-0,\bord0)}沉睡吧\N{\fs40\b0}Sleep.
+Dialogue: 1,0:09:52.86,0:09:56.78,DIAB,Helper Stevil,0,0,0,,{\be15\fad(0,850)}通知高阶助手胡拉  我们已经全力协助了\N{\fs40\b0}Alert High Helper Hula we have been most helpful.
+Dialogue: 1,0:10:04.91,0:10:08.92,DIAB,Gary,0,0,0,,{\be15}史蒂佛真是邪恶到名字上了！\N{\fs40\b0}Stevil lived right up to the evil in his name!
+Dialogue: 1,0:10:08.92,0:10:11.63,DIAB,Gary,0,0,0,,{\be15}现在我们还进了这个超安全的昏厥游乐园\N{\fs40\b0}Look! We made it to the super safe oblivion amusement park
+Dialogue: 1,0:10:11.63,0:10:13.42,DIAB,Gary,0,0,0,,{\be15}全是连绵不绝的危险楼梯\N{\fs40\b0}of never-ending unsafe stairs!
+Dialogue: 1,0:10:13.42,0:10:15.71,DIAB,Gary,0,0,0,,{\be15}我好开心啊  真是谢谢了  阿瓦卡多\N{\fs40\b0}What fun! Thanks, Avocato.
+Dialogue: 1,0:10:15.71,0:10:16.92,DIAB,Avocato,0,0,0,,{\be15}这是拉撒路陷阱\N{\fs40\b0}It's a Lazarus trap.
+Dialogue: 1,0:10:16.92,0:10:19.01,DIAB,Avocato,0,0,0,,{\be15}做这个的人肯定是陷阱大师\N{\fs40\b0}Only master trap-makers can make these,
+Dialogue: 1,0:10:19.01,0:10:20.47,DIAB,Avocato,0,0,0,,{\be15}搞不好还是个特别喜欢楼梯的人\N{\fs40\b0}and people who really like stairs.
+Dialogue: 1,0:10:20.47,0:10:23.43,DIAB,Gary,0,0,0,,{\be15}起码我们还没有陷进岩浆池之类的\N{\fs40\b0}At least we're not sinking into, like, a lake of lava or something.
+Dialogue: 1,0:10:26.43,0:10:29.65,DIAB,Avocato,0,0,0,,{\be15}听我说  我们想象的一切都会变成现实  懂吗？\N{\fs40\b0}Listen to me. Anything we think of becomes reality. Okay?
+Dialogue: 1,0:10:29.65,0:10:31.77,DIAB,Gary,0,0,0,,{\be15}好的  那我们就想开一点\N{\fs40\b0}Right. Okay. So we've got to think positive.
+Dialogue: 1,0:10:32.48,0:10:33.57,DIAB,Gary,0,0,0,,{\be15}喔  喔  饼干！\N{\fs40\b0}Ooh, ooh! Cookies!
+Dialogue: 1,0:10:34.65,0:10:35.23,DIAB,Avocato,0,0,0,,{\be15}不要啊\N{\fs40\b0}No!
+Dialogue: 1,0:10:35.78,0:10:36.44,DIAB,[Cookie],0,0,0,,{\be15}\N{\fs40\b0}Hey!
+Dialogue: 1,0:10:36.44,0:10:38.82,DIAB,[Cookie],0,0,0,,{\be15}吃了我吧  我超好吃  我是一片饼干\N{\fs40\b0}Eat me! I'm delicious! I'm a cookie!
+Dialogue: 1,0:10:38.82,0:10:42.07,DIAB,Gary,0,0,0,,{\be15}怎么啦  我又没想什么凶残的杀人零食\N{\fs40\b0}What? It's not like I'm imagining murderous killing confections?
+Dialogue: 1,0:10:42.07,0:10:42.99,DIAB,[Cookie],0,0,0,,{\be15}我要杀了你\N{\fs40\b0}I'm going to kill you.
+Dialogue: 1,0:10:45.29,0:10:54.42,DIAB,[Helper Assistant],0,0,0,,{\be15}大家都…很期待今天的死亡收割祭上…谁会死\N{\fs40\b0}Everybody is super excited about today's sacrifices at the Deathcropolis.
+Dialogue: 1,0:10:54.42,0:10:56.30,DIAB,[Helper Assistant],0,0,0,,{\be15}\N{\fs40\b0}Ooh!
+Dialogue: 1,0:10:57.26,0:11:00.26,DIAB,[Helper Assistant],0,0,0,,{\be15}但你是不会死的\N{\fs40\b0}But you're not being sacrificed.
+Dialogue: 1,0:11:00.26,0:11:02.89,DIAB,[Helper Assistant],0,0,0,,{\be15}“总司令”需要你\N{\fs40\b0}The Lord Commander needs you.
+Dialogue: 1,0:11:03.47,0:11:04.35,DIAB,[Helper Assistant],0,0,0,,{\be15}他在干啥？\N{\fs40\b0}What is he doing?
+Dialogue: 1,0:11:04.35,0:11:06.10,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity pok!
+Dialogue: 1,0:11:28.79,0:11:32.67,DIAT,Chuck,0,0,0,,{\be15}奎恩·艾冈  我们奉命以偷窃航空器材的重大罪名逮捕你\N{\fs40\b0}Quinn Airgon, we have orders to arrest you for aerial grand theft.
+Dialogue: 1,0:11:32.67,0:11:33.58,DIAB,Quinn,0,0,0,,{\be15}查克？\N{\fs40\b0}Chuck?
+Dialogue: 1,0:11:33.58,0:11:34.84,DIAB,Chuck,0,0,0,,{\be15}没错  我是查克\N{\fs40\b0}Yes. This is Chuck.
+Dialogue: 1,0:11:34.84,0:11:37.71,DIAB,Chuck,0,0,0,,{\be15}立即投降  这样我们还能放你一马\N{\fs40\b0}Now, please surrender, and this all goes away.
+Dialogue: 1,0:11:37.71,0:11:39.47,DIAB,Quinn,0,0,0,,{\be15}听着  死脑残  我拒绝\N{\fs40\b0}Listen, jerk nuts. No.
+Dialogue: 1,0:11:40.22,0:11:41.93,DIAB,Chuck,0,0,0,,{\be15}她是不是骂了我死脑残？\N{\fs40\b0}Did she just call me jerk nuts?
+Dialogue: 1,0:11:41.93,0:11:44.64,DIAT,Chuck,0,0,0,,{\be15}哦  好吧  行  行\N{\fs40\b0}Oh. Okay, yeah. Yeah.
+Dialogue: 1,0:11:44.64,0:11:46.60,DIAT,Chuck,0,0,0,,{\be15}那你就接受逮捕吧\N{\fs40\b0}I think you are under arrest.
+Dialogue: 1,0:11:46.60,0:11:48.64,DIAB,Quinn,0,0,0,,{\be15}喂  王八蛋  想都别想\N{\fs40\b0}Hey! Douche canoe, not happening.
+Dialogue: 1,0:11:48.64,0:11:51.56,DIAB,Chuck,0,0,0,,{\be15}天啊  居然说我王八蛋\N{\fs40\b0}God. You said, "Douche canoe."
+Dialogue: 1,0:11:51.56,0:11:53.60,DIAT,Chuck,0,0,0,,{\be15}行啊  听好了  奎恩\N{\fs40\b0}All right. Listen, Quinn.
+Dialogue: 1,0:11:53.60,0:11:54.69,DIAB,Quinn,0,0,0,,{\be15}不  你给我听好了\N{\fs40\b0}No. You listen.
+Dialogue: 1,0:11:54.69,0:11:56.44,DIAT,Quinn,0,0,0,,{\be15}我现在可是在拯救世界\N{\fs40\b0}I'm trying to save the world, here.
+Dialogue: 1,0:11:56.44,0:11:58.48,DIAT,Quinn,0,0,0,,{\be15}请你立马调转方向\N{\fs40\b0}So you're going to turn your vessel around
+Dialogue: 1,0:11:58.48,0:11:59.90,DIAT,Quinn,0,0,0,,{\be15}就当作你没看到我\N{\fs40\b0}and forget you ever saw me.
+Dialogue: 1,0:11:59.90,0:12:01.03,DIAB,[Pilot],0,0,0,,{\be15}老兄  你哭了？\N{\fs40\b0}Dude, are you crying?
+Dialogue: 1,0:12:01.03,0:12:03.66,DIAB,Chuck,0,0,0,,{\be15}没有  没有  我没哭\N{\fs40\b0}No. No, I'm not crying.
+Dialogue: 1,0:12:03.66,0:12:05.28,DIAB,Chuck,0,0,0,,{\be15}只是太空花粉而已\N{\fs40\b0}It's space pollen.
+Dialogue: 1,0:12:09.37,0:12:12.33,DIAB,Chuck,0,0,0,,{\be15}啊呀呀  你没念急急如律令\N{\fs40\b0}Ah, ah, ah! Didn't say the magic word!
+Dialogue: 1,0:12:16.88,0:12:20.21,DIAB,Gary,0,0,0,,{\be15}啊  为啥饼干全跳到我身上了啊\N{\fs40\b0}Aaah! Why am I the only one covered in cookies?
+Dialogue: 1,0:12:20.67,0:12:21.94,DIAB,Gary,0,0,0,,{\be15}你就没…啊  啊！\N{\fs40\b0}You have not -- ah, ah!
+Dialogue: 1,0:12:22.22,0:12:24.09,DIAB,Avocato,0,0,0,,{\be15}盖瑞  不要再想饼干了\N{\fs40\b0}Gary, de-think the cookies!
+Dialogue: 1,0:12:24.09,0:12:26.60,DIAB,Gary,0,0,0,,{\be15}恐怕我做不到  我想象力太丰富了\N{\fs40\b0}Not sure that's possible. I'm a very creative guy.
+Dialogue: 1,0:12:26.60,0:12:28.85,DIAB,Gary,0,0,0,,{\be15}这些饼干要是有激光眼岂不是逆天了\N{\fs40\b0}Like, wouldn't it be cool if they had, like, laser eyes?
+Dialogue: 1,0:12:29.81,0:12:30.98,DIAB,Gary,0,0,0,,{\be15}啊  快跑啊\N{\fs40\b0}Aah! Run!
+Dialogue: 1,0:12:31.39,0:12:33.56,DIAT,Gary,0,0,0,,{\be15}我的妈呀  不要啊  不要啊\N{\fs40\b0}Oh, my God! No! No!
+Dialogue: 1,0:12:32.14,0:12:33.56,DIAB,Avocato,0,0,0,,{\be15}快想点别的东西\N{\fs40\b0}Think of something else.
+Dialogue: 1,0:12:33.56,0:12:34.40,DIAB,Avocato,0,0,0,,{\be15}什么都好！\N{\fs40\b0}Anything else!
+Dialogue: 1,0:12:34.40,0:12:35.40,DIAB,Gary,0,0,0,,{\be15}啥  三叉戟吗？\N{\fs40\b0}What, like tridents?
+Dialogue: 1,0:12:35.94,0:12:37.27,DIAT,Avocato,0,0,0,,{\be15}别啊\N{\fs40\b0}No!
+Dialogue: 1,0:12:36.31,0:12:36.94,DIAB,Gary,0,0,0,,{\be15}好棒啊\N{\fs40\b0}Yeah!
+Dialogue: 1,0:12:36.94,0:12:37.27,DIAB,Gary,0,0,0,,{\be15}太棒了\N{\fs40\b0}Yes!
+Dialogue: 1,0:12:37.27,0:12:39.32,DIAB,Avocato,0,0,0,,{\be15}别啊  别想什么三叉戟啊！\N{\fs40\b0}No! Not like tridents!
+Dialogue: 1,0:12:39.69,0:12:42.78,DIAB,Gary,0,0,0,,{\be15}我脑子里全是会用三叉戟又有激光眼的死亡小饼干啊\N{\fs40\b0}I'm thinking about little trident-wielding laser-shooting death cookies!
+Dialogue: 1,0:12:43.74,0:12:45.66,DIAB,Gary,0,0,0,,{\be15}我啥都没想  没想  没想\N{\fs40\b0}I'm thinking of nothing, nothing, nothing.
+Dialogue: 1,0:12:45.66,0:12:46.32,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Oh! Whoa!
+Dialogue: 1,0:12:46.32,0:12:47.45,DIAB,Gary,0,0,0,,{\be15}啊  天啊\N{\fs40\b0}Oh! Oh, my gosh.
+Dialogue: 1,0:12:47.45,0:12:49.12,DIAB,[Cookie],0,0,0,,{\be15}我要把你的眼珠子吃掉\N{\fs40\b0}I'm going to eat your eyes out.
+Dialogue: 1,0:12:49.12,0:12:50.83,DIAB,[Cookie],0,0,0,,{\be15}然后在眼窝里尿尿\N{\fs40\b0}And pee in your sockets!
+Dialogue: 1,0:12:51.29,0:12:54.12,DIAB,[Cookie],0,0,0,,{\be15}你们是逃不出这个地方的\N{\fs40\b0}You're never going to leave this place.
+Dialogue: 1,0:12:54.12,0:12:56.83,DIAB,Gary,0,0,0,,{\be15}为什么那片饼干会一个人走在边上？\N{\fs40\b0}Why is that one cookie lone-wolfing it across the edge?
+Dialogue: 1,0:12:56.83,0:12:58.17,DIAB,Gary,0,0,0,,{\be15}喔  它开始飞跃了\N{\fs40\b0}Oh! He's leaping!
+Dialogue: 1,0:12:58.17,0:12:59.67,DIAB,Gary,0,0,0,,{\be15}哇  简直就像天使一样\N{\fs40\b0}Whoa! He's like an angel!
+Dialogue: 1,0:12:59.67,0:13:00.21,DIAB,Gary,0,0,0,,{\be15}我的天…\N{\fs40\b0}Oh, my God --
+Dialogue: 1,0:13:00.21,0:13:01.63,DIAB,[Cookie],0,0,0,,{\be15}我要杀了你\N{\fs40\b0}I'm going to kill you.
+Dialogue: 1,0:13:01.88,0:13:03.72,DIAB,Gary,0,0,0,,{\be15}它在戳我眼珠子啊\N{\fs40\b0}It's stabbing my eyes!
+Dialogue: 1,0:13:03.72,0:13:04.51,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:13:07.09,0:13:07.97,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Ohh.
+Dialogue: 1,0:13:13.77,0:13:14.73,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity pok!
+Dialogue: 1,0:13:17.90,0:13:21.73,DIAB,Helper Stevil,0,0,0,,{\be15}以死者之名  祝生者长存\N{\fs40\b0}To the ones who live for the ones who die!
+Dialogue: 1,0:13:25.74,0:13:29.33,DIAB,Lord Commander,0,0,0,,{\be15}这一点都不公平  我做了那么多的好事\N{\fs40\b0}It's not fair. I've been good.
+Dialogue: 1,0:13:29.33,0:13:31.29,DIAB,Lord Commander,0,0,0,,{\be15}帮了那么多的人\N{\fs40\b0}I help people.
+Dialogue: 1,0:13:31.29,0:13:35.54,DIAB,Lord Commander,0,0,0,,{\be15}我已经很耐心了  都快要不耐烦了\N{\fs40\b0}I've been patient, unbelievably patient!
+Dialogue: 1,0:13:35.54,0:13:37.12,DIAB,Eric,0,0,0,,{\be15}噢  “总司令”\N{\fs40\b0}Oh, Lord Commander!
+Dialogue: 1,0:13:37.12,0:13:39.04,DIAB,Eric,0,0,0,,{\be15}我把您的药端来了  大人\N{\fs40\b0}I-I brought your medicine, sir!
+Dialogue: 1,0:13:39.04,0:13:41.21,DIAB,Eric,0,0,0,,{\be15}我还在旁边放了一片甜饼\N{\fs40\b0}I put a little biscuit on the side,
+Dialogue: 1,0:13:41.21,0:13:44.38,DIAB,Eric,0,0,0,,{\be15}都是为了您  我无上的小王子\N{\fs40\b0}just for you, my special little prince.
+Dialogue: 1,0:13:45.51,0:13:47.09,DIAB,Lord Commander,0,0,0,,{\be15}这些都是什么东西\N{\fs40\b0}What is this?
+Dialogue: 1,0:13:47.09,0:13:47.59,DIAB,Eric,0,0,0,,{\be15}\N{\fs40\b0}Ugh! Gah!
+Dialogue: 1,0:13:47.59,0:13:51.97,DIAB,Lord Commander,0,0,0,,{\be15}我喜欢的是更小一点的甜饼\N{\fs40\b0}I like the much littler kind of biscuits.
+Dialogue: 1,0:13:51.97,0:13:54.64,DIAB,Lord Commander,0,0,0,,{\be15}我已经跟你说过了  埃里克\N{\fs40\b0}I have told you this, Eric.
+Dialogue: 1,0:13:55.06,0:13:57.35,DIAB,Lord Commander,0,0,0,,{\be15}我已经说过了！\N{\fs40\b0}I told you this!
+Dialogue: 1,0:13:57.35,0:14:00.23,DIAB,Helper Hula,0,0,0,,{\be15}我们已经全力协助了\N{\fs40\b0}We have been most helpful.
+Dialogue: 1,0:14:00.23,0:14:03.40,DIAB,Helper Hula,0,0,0,,{\be15}我们找到了月饼\N{\fs40\b0}We have found Mooncake.
+Dialogue: 1,0:14:03.40,0:14:05.86,DIAB,Lord Commander,0,0,0,,{\be15}我的耐心终于有了回报\N{\fs40\b0}My patience paid off.
+Dialogue: 1,0:14:19.67,0:14:21.38,DIAB,Helper Stevil,0,0,0,,{\be15}杀戮吧\N{\fs40\b0}The more you kill,
+Dialogue: 1,0:14:21.38,0:14:25.13,DIAB,Helper Stevil,0,0,0,,{\be15}十二泰坦会愈加开心的\N{\fs40\b0}the more the Twelve Titans beyond rejoice.
+Dialogue: 1,0:14:28.51,0:14:29.47,DIAB,Gary & Avocato,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:14:30.76,0:14:31.97,DIAB,Avocato,0,0,0,,{\be15}盖瑞  我们必须醒过来\N{\fs40\b0}Gary, we need to wake up.
+Dialogue: 1,0:14:31.97,0:14:32.97,DIAB,Avocato,0,0,0,,{\be15}把眼睛闭上\N{\fs40\b0}Close your eyes.
+Dialogue: 1,0:14:32.97,0:14:34.93,DIAB,Gary,0,0,0,,{\be15}又让我醒来  又让我闭上眼睛？\N{\fs40\b0}You want me to wake up by closing my eyes?
+Dialogue: 1,0:14:34.93,0:14:35.85,DIAB,Gary,0,0,0,,{\be15}这根本说不通啊\N{\fs40\b0}That doesn't make any sense!
+Dialogue: 1,0:14:35.85,0:14:37.68,DIAB,Avocato,0,0,0,,{\be15}在这里没有哪件事是说得通的\N{\fs40\b0}Nothing makes any sense in here!
+Dialogue: 1,0:14:37.68,0:14:39.27,DIAB,Gary,0,0,0,,{\be15}好吧  有道理\N{\fs40\b0}All right. Good point.
+Dialogue: 1,0:14:39.27,0:14:40.44,DIAB,Gary,0,0,0,,{\be15}好吧  闭上眼睛\N{\fs40\b0}Okay. I'm closing my eyes.
+Dialogue: 1,0:14:41.48,0:14:43.69,DIAB,Gary,0,0,0,,{\be15}根本没用\N{\fs40\b0}It's not working.
+Dialogue: 1,0:14:43.69,0:14:44.78,DIAB,Quinn,0,0,0,,{\be15}嗨  盖瑞\N{\fs40\b0}Hi, Gary.
+Dialogue: 1,0:14:44.78,0:14:45.44,DIAB,Gary,0,0,0,,{\be15}奎恩？\N{\fs40\b0}Quinn?
+Dialogue: 1,0:14:46.65,0:14:48.78,DIAB,Quinn,0,0,0,,{\be15}好久不见\N{\fs40\b0}It's been a long time.
+Dialogue: 1,0:14:48.78,0:14:50.78,DIAB,Quinn,0,0,0,,{\be15}快点过来  我好想你\N{\fs40\b0}Come here. I missed you.
+Dialogue: 1,0:14:50.78,0:14:52.24,DIAB,Gary,0,0,0,,{\be15}真的…是你吗？\N{\fs40\b0}Is it... really you?
+Dialogue: 1,0:14:53.74,0:14:54.91,DIAB,Quinn,0,0,0,,{\be15}再靠近一点\N{\fs40\b0}Closer.
+Dialogue: 1,0:14:55.70,0:14:56.20,DIAB,Avocato,0,0,0,,{\be15}盖瑞…\N{\fs40\b0}Gary...
+Dialogue: 1,0:14:56.20,0:14:56.87,DIAB,Gary,0,0,0,,{\be15}别拦着我！\N{\fs40\b0}Get off me!
+Dialogue: 1,0:14:58.29,0:14:59.67,DIAB,Avocato,0,0,0,,{\be15}这也是陷阱\N{\fs40\b0}It's part of the trap.
+Dialogue: 1,0:14:59.67,0:15:02.21,DIAB,Quinn,0,0,0,,{\be15}盖瑞  别听他说的\N{\fs40\b0}Gary, don't listen to him.
+Dialogue: 1,0:15:02.21,0:15:05.25,DIAB,Avocato,0,0,0,,{\be15}你要相信我  她并不是真的在那里\N{\fs40\b0}You need to trust me. She isn't real.
+Dialogue: 1,0:15:05.25,0:15:07.59,DIAB,Little Cato,0,0,0,,{\be15}我们能回家了吗  爸爸？\N{\fs40\b0}Are we going home, dad?
+Dialogue: 1,0:15:10.93,0:15:13.93,DIAB,Avocato,0,0,0,,{\be15}相信我  伙计  我们两个都要醒过来\N{\fs40\b0}Trust me, buddy. We both need to wake up.
+Dialogue: 1,0:15:17.27,0:15:18.31,DIAB,Gary,0,0,0,,{\be15}我不想再醒来了\N{\fs40\b0}I don't want to wake up.
+Dialogue: 1,0:15:20.23,0:15:22.10,DIAB,Avocato,0,0,0,,{\be15}那就只好请你忍一忍了\N{\fs40\b0}Then you're really not going to want this.
+Dialogue: 1,0:15:27.82,0:15:30.15,DIAB,Gary,0,0,0,,{\be15}我们出来了  是我救的我们\N{\fs40\b0}We're out! I saved us.
+Dialogue: 1,0:15:30.15,0:15:31.49,DIAB,Avocato,0,0,0,,{\be15}不对  明明是我救的你\N{\fs40\b0}No, I saved you.
+Dialogue: 1,0:15:31.49,0:15:32.78,DIAB,Gary,0,0,0,,{\be15}而我也救了你\N{\fs40\b0}And I, you.
+Dialogue: 1,0:15:32.78,0:15:33.66,DIAB,Avocato,0,0,0,,{\be15}你并没有救我\N{\fs40\b0}No, you didn't.
+Dialogue: 1,0:15:33.66,0:15:34.41,DIAB,Gary,0,0,0,,{\be15}但我的确救了你啊\N{\fs40\b0}But I did.
+Dialogue: 1,0:15:34.41,0:15:35.83,DIAB,Avocato,0,0,0,,{\be15}你差点就把我们害死了  盖瑞\N{\fs40\b0}You almost got us killed, Gary.
+Dialogue: 1,0:15:36.54,0:15:37.54,DIAB,Gary,0,0,0,,{\be15}那我们两个就扯平了\N{\fs40\b0}Then we're even.
+Dialogue: 1,0:15:38.54,0:15:39.62,DIAB,Gary,0,0,0,,{\be15}赶紧去找月饼！\N{\fs40\b0}We've got to find Mooncake!
+Dialogue: 1,0:15:39.62,0:15:41.92,DIAB,Avocato,0,0,0,,{\be15}盖瑞  我说了  月饼不会有事的\N{\fs40\b0}Gary, I told you Mooncake is going to be okay.
+Dialogue: 1,0:15:41.92,0:15:42.83,DIAB,Avocato,0,0,0,,{\be15}他可是超级武器\N{\fs40\b0}He's a super weapon.
+Dialogue: 1,0:15:42.83,0:15:43.54,DIAB,Gary,0,0,0,,{\be15}才不对！\N{\fs40\b0}Wrong!
+Dialogue: 1,0:15:43.54,0:15:46.13,DIAB,Gary,0,0,0,,{\be15}我的小绿球朋友可是人畜无害  充满爱的口香糖球\N{\fs40\b0}Little green ball friend is a harmless gumball of love!
+Dialogue: 1,0:15:46.13,0:15:47.00,DIAB,Gary,0,0,0,,{\be15}HUE  在吗？\N{\fs40\b0}HUE, you there?
+Dialogue: 1,0:15:47.00,0:15:48.42,DIAT,HUE,0,0,0,,{\be15}你去哪里了  盖瑞？\N{\fs40\b0}Where have you been, Gary?
+Dialogue: 1,0:15:48.42,0:15:51.01,DIAB,Gary,0,0,0,,{\be15}要解释的话估计你会觉得我疯了\N{\fs40\b0}It would sound too insane to even explain.
+Dialogue: 1,0:15:51.01,0:15:52.59,DIAB,Gary,0,0,0,,{\be15}你能帮我锁定一下月饼的位置吗？\N{\fs40\b0}Can you lock into Mooncake's location?
+Dialogue: 1,0:15:52.59,0:15:54.09,DIAB,Avocato,0,0,0,,{\be15}呃  盖瑞？\N{\fs40\b0}Uh, Gary?
+Dialogue: 1,0:15:55.05,0:15:56.72,DIAB,Gary,0,0,0,,{\be15}小家伙\N{\fs40\b0}Little buddy.
+Dialogue: 1,0:15:57.60,0:16:00.39,DIAB,Helper Stevil,0,0,0,,{\be15}最后的献祭者即将揭晓\N{\fs40\b0}The final sacrifice awaits.
+Dialogue: 1,0:16:02.39,0:16:13.66,DIAT,[Audience],0,0,0,,{\be15}杀！杀！杀！杀！\N{\fs40\b0}Kill! Kill! Kill! Kill!
+Dialogue: 1,0:16:22.58,0:16:24.42,DIAB,Lord Commander,0,0,0,,{\be15}你好呀  月饼\N{\fs40\b0}Hello, Mooncake.
+Dialogue: 1,0:16:24.42,0:16:27.75,DIAB,Lord Commander,0,0,0,,{\be15}我可是找了你好久了\N{\fs40\b0}I have been looking all over for you.
+Dialogue: 1,0:16:31.38,0:16:33.38,DIAB,Lord Commander,0,0,0,,{\be15}别害羞嘛\N{\fs40\b0}Don't be shy.
+Dialogue: 1,0:16:33.38,0:16:35.55,DIAB,Lord Commander,0,0,0,,{\be15}过来打个招呼啊\N{\fs40\b0}Come in and say hello.
+Dialogue: 1,0:16:38.22,0:16:40.39,DIAB,Lord Commander,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:16:43.10,0:16:46.02,DIAB,Lord Commander,0,0,0,,{\be15}为什么我会变得这么虚弱？\N{\fs40\b0}How did I become so weak?
+Dialogue: 1,0:16:46.02,0:16:46.90,DIAB,Gary,0,0,0,,{\be15}月饼！\N{\fs40\b0}Mooncake!
+Dialogue: 1,0:16:46.90,0:16:48.11,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Doot, doot, doot, doot!
+Dialogue: 1,0:16:49.57,0:16:50.11,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity!
+Dialogue: 1,0:16:50.11,0:16:50.53,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Oh!
+Dialogue: 1,0:16:51.11,0:16:51.78,DIAB,Avocato,0,0,0,,{\be15}盖瑞！\N{\fs40\b0}Gary!
+Dialogue: 1,0:16:51.78,0:16:54.11,DIAB,Lord Commander,0,0,0,,{\be15}是时候收手了  “那个”盖瑞\N{\fs40\b0}It's over, The Gary.
+Dialogue: 1,0:16:54.11,0:16:56.20,DIAB,Gary,0,0,0,,{\be15}是盖瑞  我就叫盖瑞\N{\fs40\b0}"Gary." It's just "Gary."
+Dialogue: 1,0:16:56.20,0:16:57.62,DIAB,Gary,0,0,0,,{\be15}你到底想干什么  老兄？\N{\fs40\b0}What is your deal, dude?
+Dialogue: 1,0:16:57.62,0:16:59.45,DIAB,Gary,0,0,0,,{\be15}为啥要死缠着我们不放？\N{\fs40\b0}Why won't you just leave us alone?
+Dialogue: 1,0:16:59.45,0:17:02.12,DIAB,Lord Commander,0,0,0,,{\be15}看来你什么都不知道啊\N{\fs40\b0}You have no idea, do you?
+Dialogue: 1,0:17:02.12,0:17:04.58,DIAB,Lord Commander,0,0,0,,{\be15}月饼就是钥匙\N{\fs40\b0}Mooncake is the key.
+Dialogue: 1,0:17:04.58,0:17:07.75,DIAB,Lord Commander,0,0,0,,{\be15}这个生命体将会打开\N{\fs40\b0}That being can unlock
+Dialogue: 1,0:17:07.75,0:17:10.25,DIAB,Lord Commander,0,0,0,,{\be15}通往“终空”的大门\N{\fs40\b0}Final Space.
+Dialogue: 1,0:17:11.88,0:17:14.42,DIAB,Gary,0,0,0,,{\be15}“终空”又它娘的是啥鬼？\N{\fs40\b0}What the mother-loving crap is Final Space?
+Dialogue: 1,0:17:14.42,0:17:16.43,DIAB,Lord Commander,0,0,0,,{\be15}不关你事\N{\fs40\b0}That's my business.
+Dialogue: 1,0:17:16.43,0:17:19.05,DIAB,Lord Commander,0,0,0,,{\be15}你是想跟我玩游戏吗  盖瑞？\N{\fs40\b0}Should we play a game, Gary?
+Dialogue: 1,0:17:19.05,0:17:21.97,DIAB,Lord Commander,0,0,0,,{\be15}我最喜欢游戏了  而且胜利的永远是我\N{\fs40\b0}I love games. I always win.
+Dialogue: 1,0:17:29.90,0:17:32.11,DIAB,Lord Commander,0,0,0,,{\be15}你知道我的要求  所以我…\N{\fs40\b0}You know what I want, and I --
+Dialogue: 1,0:17:32.78,0:17:32.99,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Ya!
+Dialogue: 1,0:17:34.11,0:17:38.24,DIAB,Gary,0,0,0,,{\be15}我  的  天  啊\N{\fs40\b0}Oh, my gosh!
+Dialogue: 1,0:17:41.16,0:17:43.25,DIAB,Gary,0,0,0,,{\be15}饿地神啊\N{\fs40\b0}Sweet Grandor's glove!
+Dialogue: 1,0:17:43.25,0:17:45.54,DIAB,Gary,0,0,0,,{\be15}你真的是能毁灭行星的超级武器！\N{\fs40\b0}You are a planet-destroying super weapon!
+Dialogue: 1,0:17:45.54,0:17:45.96,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity!
+Dialogue: 1,0:17:45.96,0:17:47.71,DIAB,Gary,0,0,0,,{\be15}哇  太棒了\N{\fs40\b0}Whoa! Yes!
+Dialogue: 1,0:17:47.71,0:17:49.42,DIAB,Gary,0,0,0,,{\be15}真是太他妈的刺激了\N{\fs40\b0}That's so freaking tight!
+Dialogue: 1,0:17:49.42,0:17:51.96,DIAB,Lord Commander,0,0,0,,{\be15}游戏哪有像你这么玩的\N{\fs40\b0}That's not how we play the game!
+Dialogue: 1,0:17:51.96,0:17:53.30,DIAB,Gary,0,0,0,,{\be15}那  这个游戏如何？\N{\fs40\b0}How about this game?
+Dialogue: 1,0:17:54.05,0:17:55.84,DIAB,Lord Commander,0,0,0,,{\be15}哈  没打中吧\N{\fs40\b0}Ah, you missed.
+Dialogue: 1,0:17:55.84,0:17:56.43,DIAB,Gary,0,0,0,,{\be15}干\N{\fs40\b0}Freak.
+Dialogue: 1,0:17:56.43,0:17:57.43,DIAB,Gary,0,0,0,,{\be15}瞄准门锁！\N{\fs40\b0}Shoot for the locks!
+Dialogue: 1,0:18:04.73,0:18:05.27,DIAB,Avocato,0,0,0,,{\be15}盖瑞  小心！\N{\fs40\b0}Gary, look out!
+Dialogue: 1,0:18:05.27,0:18:05.85,DIAB,Gary,0,0,0,,{\be15}\N{\fs40\b0}Ugh!
+Dialogue: 1,0:18:05.85,0:18:07.31,DIAB,[Guard],0,0,0,,{\be15}\N{\fs40\b0}Ah!
+Dialogue: 1,0:18:07.31,0:18:07.98,DIAB,Avocato,0,0,0,,{\be15}\N{\fs40\b0}Ugh.
+Dialogue: 1,0:18:15.78,0:18:17.15,DIAB,KVN,0,0,0,,{\be15}我来救你啦  盖瑞\N{\fs40\b0}I'm going to save you, Gary!
+Dialogue: 1,0:18:17.15,0:18:18.03,DIAB,KVN,0,0,0,,{\be15}我在救你喔\N{\fs40\b0}I'm saving you!
+Dialogue: 1,0:18:19.11,0:18:20.49,DIAB,KVN,0,0,0,,{\be15}我是来救你的  盖瑞\N{\fs40\b0}I'm here to save you, Gary!
+Dialogue: 1,0:18:20.49,0:18:21.83,DIAB,KVN,0,0,0,,{\be15}我拯救世界啦\N{\fs40\b0}The day is saved.
+Dialogue: 1,0:18:22.74,0:18:24.70,DIAB,Gary,0,0,0,,{\be15}妈的KVN  我恨死你了\N{\fs40\b0}Freaking KVN! I hate you so much!
+Dialogue: 1,0:18:24.70,0:18:26.08,DIAB,Gary,0,0,0,,{\be15}你给我早点去死吧\N{\fs40\b0}I truly can't wait for the day you die!
+Dialogue: 1,0:18:26.08,0:18:28.08,DIAB,Gary,0,0,0,,{\be15}我的妈  没人会感到悲伤\N{\fs40\b0}Oh, my gosh. No one will be sad.
+Dialogue: 1,0:18:28.08,0:18:29.67,DIAB,Gary,0,0,0,,{\be15}只会有满满的幸福感\N{\fs40\b0}There will only be happiness!
+Dialogue: 1,0:18:35.38,0:18:36.76,DIAB,KVN,0,0,0,,{\be15}嘿  盖瑞\N{\fs40\b0}Hey, Gary!
+Dialogue: 1,0:18:36.76,0:18:39.13,DIAB,Gary,0,0,0,,{\be15}想都别想  绝对想都别想\N{\fs40\b0}Don't even. Just don't even.
+Dialogue: 1,0:18:39.13,0:18:40.59,DIAB,KVN,0,0,0,,{\be15}KVN拯救了一切\N{\fs40\b0}KVN has saved everything.
+Dialogue: 1,0:18:50.60,0:18:55.78,DIAB,Chuck,0,0,0,,{\be15}如此巨大的量子引力干扰  居然还在扩散\N{\fs40\b0}The gravitational disturbance, it's massive and growing -- a lot...
+Dialogue: 1,0:18:55.78,0:18:56.94,DIAB,Chuck,0,0,0,,{\be15}而且是飞速扩散啊\N{\fs40\b0}a lot, a lot.
+Dialogue: 1,0:18:56.94,0:18:58.86,DIAB,Quinn,0,0,0,,{\be15}我说的就是这个意思啊\N{\fs40\b0}That's what I've been trying to tell you.
+Dialogue: 1,0:18:58.86,0:19:01.57,DIAT,[Computer],0,0,0,,{\be15}探针即将失控  探针即将失控\N{\fs40\b0}Probe failure imminent. Probe failure imminent.
+Dialogue: 1,0:19:01.57,0:19:03.41,DIAB,Quinn,0,0,0,,{\be15}我们必须马上离开这里\N{\fs40\b0}We need to get out of here right now.
+Dialogue: 1,0:19:05.66,0:19:08.50,DIAB,Chuck,0,0,0,,{\be15}上帝啊  启动后推进器\N{\fs40\b0}Oh, God! Engage rear thrusters!
+Dialogue: 1,0:19:08.50,0:19:09.46,DIAB,Chuck,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:19:09.46,0:19:10.42,DIAB,Quinn,0,0,0,,{\be15}\N{\fs40\b0}Ah!
+Dialogue: 1,0:19:13.13,0:19:16.17,DIAB,Chuck,0,0,0,,{\be15}我不是王八蛋啊\N{\fs40\b0}I am not a douche canoe!
+Dialogue: 1,0:19:16.17,0:19:17.63,DIAB,Chuck,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:19:20.30,0:19:21.51,DIAB,Quinn,0,0,0,,{\be15}\N{\fs40\b0}Ahh!
+Dialogue: 1,0:19:39.19,0:19:41.15,DIAB,Quinn,0,0,0,,{\be15}求救  求救  我是奎恩·艾冈\N{\fs40\b0}Mayday, mayday! This is Quinn Airgon!
+Dialogue: 1,0:19:41.15,0:19:43.24,DIAB,Quinn,0,0,0,,{\be15}有人听得到吗？救命啊！\N{\fs40\b0}Can someone hear me? Help me!
+Dialogue: 1,0:19:45.91,0:19:50.50,DIAT,HUE,0,0,0,,{\be15}我按你的要求  把所有转出兆压的犯人全部扫描了一遍\N{\fs40\b0}I've processed your scan of all prisoner transfers out of Tera Con Prime.
+Dialogue: 1,0:19:50.50,0:19:52.87,DIAT,HUE,0,0,0,,{\be15}没有发现小卡多\N{\fs40\b0}There is no match for Little Cato.
+Dialogue: 1,0:20:04.30,0:20:05.05,DIAB,Gary,0,0,0,,{\be15}月饼？\N{\fs40\b0}Mooncake?
+Dialogue: 1,0:20:06.51,0:20:07.60,DIAB,Gary,0,0,0,,{\be15}怎么了  伙计？\N{\fs40\b0}What's wrong, bud?
+Dialogue: 1,0:20:07.60,0:20:08.81,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Mm.
+Dialogue: 1,0:20:10.06,0:20:11.52,DIAB,Gary,0,0,0,,{\be15}我知道了\N{\fs40\b0}I get it.
+Dialogue: 1,0:20:11.52,0:20:14.86,DIAB,Gary,0,0,0,,{\be15}也就是说  你能在脸上开个孔  射出死亡光线\N{\fs40\b0}So you shoot a murder beam out of your face hole.
+Dialogue: 1,0:20:14.86,0:20:15.86,DIAB,Gary,0,0,0,,{\be15}这有什么\N{\fs40\b0}So what?
+Dialogue: 1,0:20:15.86,0:20:17.94,DIAB,Gary,0,0,0,,{\be15}你可是我们中间最厉害的一个欸\N{\fs40\b0}I mean, it happens to the best of us.
+Dialogue: 1,0:20:17.94,0:20:20.49,DIAB,Gary,0,0,0,,{\be15}就像有一天  我吃了一个卷饼\N{\fs40\b0}I mean, just the other day I had a burrito,
+Dialogue: 1,0:20:20.49,0:20:22.86,DIAB,Gary,0,0,0,,{\be15}然后你应该看到我射出了他妈的死亡光线\N{\fs40\b0}and you should have saw the freaking murder beam
+Dialogue: 1,0:20:22.86,0:20:23.78,DIAB,Gary,0,0,0,,{\be15}就是从我的…\N{\fs40\b0}that came out of my ba--
+Dialogue: 1,0:20:23.78,0:20:25.37,DIAB,Gary,0,0,0,,{\be15}就  就是说  仔细想想的话\N{\fs40\b0}And, you know, it's actually pretty sweet,
+Dialogue: 1,0:20:25.37,0:20:26.41,DIAB,Gary,0,0,0,,{\be15}其实还挺棒的\N{\fs40\b0}if you think about it.
+Dialogue: 1,0:20:27.74,0:20:29.16,DIAB,Gary,0,0,0,,{\be15}我的意思是  我想让你知道\N{\fs40\b0}I mean, I just want you to know that
+Dialogue: 1,0:20:29.16,0:20:31.91,DIAB,Gary,0,0,0,,{\be15}就算是这样  也不会影响到你和这家伙…\N{\fs40\b0}that doesn't change anything between you and this guy.
+Dialogue: 1,0:20:32.66,0:20:33.17,DIAB,KVN,0,0,0,,{\be15}说我吗？\N{\fs40\b0}Me?
+Dialogue: 1,0:20:33.17,0:20:34.21,DIAB,Gary,0,0,0,,{\be15}不是！\N{\fs40\b0}Not you!
+Dialogue: 1,0:20:34.21,0:20:34.50,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Chookity!
+Dialogue: 1,0:20:37.75,0:20:39.00,DIAB,Gary,0,0,0,,{\be15}…和他的关系\N{\fs40\b0}Him.
+Dialogue: 1,0:20:39.00,0:20:40.92,DIAB,Gary,0,0,0,,{\be15}又不是说你就是坏人了  真的不是\N{\fs40\b0}It doesn't make you the bad guy. It really doesn't.
+Dialogue: 1,0:20:40.92,0:20:44.68,DIAB,Gary,0,0,0,,{\be15}依我看  那个想把你当作武器用的人渣才是坏人\N{\fs40\b0}I mean, it makes the scum who want to use you as the weapon the bad guy.
+Dialogue: 1,0:20:44.68,0:20:46.60,DIAB,Gary,0,0,0,,{\be15}听着  你就是个好人  打心底里就是\N{\fs40\b0}Look, you're a good guy to the max core.
+Dialogue: 1,0:20:46.60,0:20:48.05,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Ohh!
+Dialogue: 1,0:20:48.05,0:20:49.93,DIAB,Gary,0,0,0,,{\be15}我不会再离开你了\N{\fs40\b0}I'm never going to let you go again.
+Dialogue: 1,0:20:49.93,0:20:52.60,DIAB,Gary,0,0,0,,{\be15}我只会把你托付给一个人\N{\fs40\b0}I now know the only one I can trust with you
+Dialogue: 1,0:20:52.60,0:20:53.94,DIAB,Gary,0,0,0,,{\be15}就是最厉害的自己\N{\fs40\b0}is my own awesomeness.
+Dialogue: 1,0:20:53.94,0:20:55.40,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Mm!
+Dialogue: 1,0:20:57.48,0:20:58.94,DIAB,Gary,0,0,0,,{\be15}我感觉我喜欢上这一切了\N{\fs40\b0}I'm starting to like these.
+Dialogue: 1,0:20:58.94,0:21:00.19,DIAB,Mooncake,0,0,0,,{\be15}\N{\fs40\b0}Mm.
+Dialogue: 1,0:21:00.19,0:21:03.24,DIAT,HUE,0,0,0,,{\be15}盖瑞  我收到了一个求救信号\N{\fs40\b0}Gary, I am receiving a mayday call.
+Dialogue: 1,0:21:03.24,0:21:05.36,DIAT,Quinn,0,0,0,,{\be15}求救  求救  我是奎恩·艾冈\N{\fs40\b0}Mayday, mayday! This is Quinn Airgon!
+Dialogue: 1,0:21:05.36,0:21:07.82,DIAT,Quinn,0,0,0,,{\be15}有人听得到吗？救命啊！\N{\fs40\b0}Can someone hear me? Help me!
+Dialogue: 1,0:21:07.82,0:21:09.74,DIAT,Gary,0,0,0,,{\be15}我的妈\N{\fs40\b0}Oh, my crap.
+Dialogue: 1,0:21:09.74,0:21:10.79,DIAT,Gary,0,0,0,,{\be15}奎恩来了\N{\fs40\b0}It's Quinn.
+Comment: 0,0:00:00.00,0:21:32.81,DEFT,,0,0,0,,-- ON-SCREEN TRANSLATIONS --
+Dialogue: 0,0:01:13.09,0:01:13.13,CRED,,0,0,0,Logo,{\an5\pos(896.09,1211.9)\fscy194.18\frz-5.42\fscx194.18\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.13,0:01:13.17,CRED,,0,0,0,Logo,{\an5\pos(897.06,1178.81)\fscy185.48\frz-5.46\fscx185.48\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.17,0:01:13.21,CRED,,0,0,0,Logo,{\an5\pos(899.99,1145.85)\fscy176.48\frz-5.44\fscx176.48\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.21,0:01:13.26,CRED,,0,0,0,Logo,{\an5\pos(902.29,1119.89)\fscy169.66\frz-5.46\fscx169.66\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.26,0:01:13.30,CRED,,0,0,0,Logo,{\an5\pos(905.06,1098.71)\fscy163.94\frz-5.39\fscx163.94\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.30,0:01:13.34,CRED,,0,0,0,Logo,{\an5\pos(908.12,1078.38)\fscy158.74\frz-5.24\fscx158.74\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.34,0:01:13.38,CRED,,0,0,0,Logo,{\an5\pos(911.84,1059.59)\fscy153.4\frz-5.02\fscx153.4\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.38,0:01:13.42,CRED,,0,0,0,Logo,{\an5\pos(915.22,1042.96)\fscy148.69\frz-4.81\fscx148.69\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.42,0:01:13.46,CRED,,0,0,0,Logo,{\an5\pos(918.21,1028.37)\fscy144.57\frz-4.61\fscx144.57\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.46,0:01:13.51,CRED,,0,0,0,Logo,{\an5\pos(921,1015.21)\fscy140.87\frz-4.42\fscx140.87\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.51,0:01:13.55,CRED,,0,0,0,Logo,{\an5\pos(923.3,1003.93)\fscy137.76\frz-4.25\fscx137.76\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.55,0:01:13.59,CRED,,0,0,0,Logo,{\an5\pos(925.63,993.3)\fscy134.81\frz-4.07\fscx134.81\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.59,0:01:13.63,CRED,,0,0,0,Logo,{\an5\pos(927.74,983.71)\fscy132.15\frz-3.9\fscx132.15\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.63,0:01:13.67,CRED,,0,0,0,Logo,{\an5\pos(929.76,975)\fscy129.7\frz-3.72\fscx129.7\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.67,0:01:13.72,CRED,,0,0,0,Logo,{\an5\pos(931.66,967.02)\fscy127.46\frz-3.55\fscx127.46\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.72,0:01:13.76,CRED,,0,0,0,Logo,{\an5\pos(933.45,959.59)\fscy125.38\frz-3.38\fscx125.38\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.76,0:01:13.80,CRED,,0,0,0,Logo,{\an5\pos(935.14,952.68)\fscy123.46\frz-3.22\fscx123.46\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.80,0:01:13.84,CRED,,0,0,0,Logo,{\an5\pos(936.73,946.21)\fscy121.69\frz-3.06\fscx121.69\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.84,0:01:13.88,CRED,,0,0,0,Logo,{\an5\pos(938.24,940.17)\fscy120.03\frz-2.9\fscx120.03\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.88,0:01:13.92,CRED,,0,0,0,Logo,{\an5\pos(939.68,934.49)\fscy118.5\frz-2.75\fscx118.5\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.92,0:01:13.97,CRED,,0,0,0,Logo,{\an5\pos(941.05,929.15)\fscy117.07\frz-2.6\fscx117.07\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:13.97,0:01:14.01,CRED,,0,0,0,Logo,{\an5\pos(942.33,924.15)\fscy115.74\frz-2.46\fscx115.74\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.01,0:01:14.05,CRED,,0,0,0,Logo,{\an5\pos(943.58,919.43)\fscy114.5\frz-2.31\fscx114.5\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.05,0:01:14.09,CRED,,0,0,0,Logo,{\an5\pos(944.74,914.99)\fscy113.34\frz-2.17\fscx113.34\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.09,0:01:14.13,CRED,,0,0,0,Logo,{\an5\pos(945.84,910.79)\fscy112.26\frz-2.04\fscx112.26\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.13,0:01:14.17,CRED,,0,0,0,Logo,{\an5\pos(946.9,906.85)\fscy111.24\frz-1.91\fscx111.24\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.17,0:01:14.22,CRED,,0,0,0,Logo,{\an5\pos(947.91,903.11)\fscy110.3\frz-1.78\fscx110.3\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.22,0:01:14.26,CRED,,0,0,0,Logo,{\an5\pos(948.87,899.56)\fscy109.41\frz-1.66\fscx109.41\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.26,0:01:14.30,CRED,,0,0,0,Logo,{\an5\pos(949.76,896.22)\fscy108.58\frz-1.54\fscx108.58\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.30,0:01:14.34,CRED,,0,0,0,Logo,{\an5\pos(950.62,893.06)\fscy107.8\frz-1.42\fscx107.8\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.34,0:01:14.38,CRED,,0,0,0,Logo,{\an5\pos(951.42,890.1)\fscy107.08\frz-1.32\fscx107.08\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.38,0:01:14.42,CRED,,0,0,0,Logo,{\an5\pos(952.19,887.28)\fscy106.4\frz-1.21\fscx106.4\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.42,0:01:14.47,CRED,,0,0,0,Logo,{\an5\pos(952.92,884.63)\fscy105.76\frz-1.11\fscx105.76\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.47,0:01:14.51,CRED,,0,0,0,Logo,{\an5\pos(953.6,882.14)\fscy105.17\frz-1.01\fscx105.17\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.51,0:01:14.55,CRED,,0,0,0,Logo,{\an5\pos(954.24,879.81)\fscy104.62\frz-0.92\fscx104.62\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.55,0:01:14.59,CRED,,0,0,0,Logo,{\an5\pos(954.86,877.59)\fscy104.1\frz-0.82\fscx104.1\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.59,0:01:14.63,CRED,,0,0,0,Logo,{\an5\pos(955.43,875.54)\fscy103.63\frz-0.74\fscx103.63\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.63,0:01:14.67,CRED,,0,0,0,Logo,{\an5\pos(955.95,873.61)\fscy103.18\frz-0.66\fscx103.18\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.67,0:01:14.72,CRED,,0,0,0,Logo,{\an5\pos(956.45,871.83)\fscy102.77\frz-0.58\fscx102.77\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.72,0:01:14.76,CRED,,0,0,0,Logo,{\an5\pos(956.94,870.18)\fscy102.39\frz-0.51\fscx102.39\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.76,0:01:14.80,CRED,,0,0,0,Logo,{\an5\pos(957.37,868.67)\fscy102.04\frz-0.44\fscx102.04\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.80,0:01:14.84,CRED,,0,0,0,Logo,{\an5\pos(957.78,867.27)\fscy101.72\frz-0.37\fscx101.72\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.84,0:01:14.88,CRED,,0,0,0,Logo,{\an5\pos(958.16,866.04)\fscy101.43\frz-0.31\fscx101.43\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.88,0:01:14.92,CRED,,0,0,0,Logo,{\an5\pos(958.5,864.9)\fscy101.17\frz-0.26\fscx101.17\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.92,0:01:14.97,CRED,,0,0,0,Logo,{\an5\pos(958.79,863.92)\fscy100.94\frz-0.21\fscx100.94\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:14.97,0:01:15.01,CRED,,0,0,0,Logo,{\an5\pos(959.04,863.05)\fscy100.73\frz-0.17\fscx100.73\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.01,0:01:15.05,CRED,,0,0,0,Logo,{\an5\pos(959.31,862.29)\fscy100.55\frz-0.12\fscx100.55\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.05,0:01:15.09,CRED,,0,0,0,Logo,{\an5\pos(959.48,861.62)\fscy100.39\frz-0.09\fscx100.39\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.09,0:01:15.13,CRED,,0,0,0,Logo,{\an5\pos(959.64,861.11)\fscy100.27\frz-0.06\fscx100.27\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.13,0:01:15.17,CRED,,0,0,0,Logo,{\an5\pos(959.78,860.67)\fscy100.16\frz-0.04\fscx100.16\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.17,0:01:15.22,CRED,,0,0,0,Logo,{\an5\pos(959.89,860.37)\fscy100.09\frz-0.02\fscx100.09\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.22,0:01:15.26,CRED,,0,0,0,Logo,{\an5\pos(959.97,860.1)\fscy100.02\frz-0.01\fscx100.02\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.26,0:01:15.30,CRED,,0,0,0,Logo,{\an5\pos(960,860)\fscy100\frz0\fscx100\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:01:15.30,0:01:15.76,CRED,,0,0,0,Logo,{\an5\pos(960,860)\shad0\fnSource Han Sans Heavy}Translated by @SerCom_KC\N{\fnSource Han Sans Light\fs40}OPEN TRANSLATION PROJECT
+Dialogue: 0,0:04:38.13,0:04:40.17,DEFT,,0,0,0,,{\an8\fs125\bord2.5\be5\c&H32EAD5&\fn思源黑体 Heavy\fsp10}兆压{SerCom_KC: conprime [LA] > conprimo [LA] > compress [EN]}     {\fs75}18650区
+Dialogue: 0,0:04:40.17,0:04:43.13,DEFT,,0,0,0,,{\an8\fs125\bord2.5\be5\c&H0926DA&\fn思源黑体 Heavy\fsp10}十二教团
+Dialogue: 0,0:05:47.15,0:05:51.20,DEFT,,0,0,0,,{\an5\fs125\bord2.5\be5\c&HF30F61&\fn思源黑体 Heavy\fsp10}雅尔诺星
+Dialogue: 0,0:12:05.28,0:12:05.78,DEFT,,0,0,0,,{\frx10\fry352\bord0\c&H18E8FA&\pos(1116,191.6)\frz350}绝统干预
